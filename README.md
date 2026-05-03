@@ -34,7 +34,7 @@
 		 * [ ] Rust bootcamp at Ecole42 (**optional**)
 		 * [ ] Go - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). Also review this [course](https://www.w3schools.com/go/index.php)
 		 * [ ] Go bootcamp at Ecole42 / School 21 (**optional**)
-		 * [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) also review this projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) or/and from this [repo](https://github.com/Xtremilicious/projectlearn-project-based-learning). Recommended: backend, malware analysis, blockchain-related. Backend can be implemented within Ecole42 / School21 bootcamp
+		 * [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) also review these projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) or/and from this [repo](https://github.com/Xtremilicious/projectlearn-project-based-learning). Recommended: backend, malware analysis, blockchain-related. Backend can be implemented within Ecole42 / School21 bootcamp
 	 * [ ] [Core security from OSSU (OpenSource Society University)](https://github.com/ossu/computer-science?tab=readme-ov-file#core-security) - identifying security vulnerabilities(C++/Java), principles of secure coding #appsec
 	* For additional specialization and pivoting look up different CbS specialization roadmaps on github
 * Do when you are ready:
