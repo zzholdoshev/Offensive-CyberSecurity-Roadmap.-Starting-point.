@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "🏴CbS intermediate roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "🏴CbS intermediate roadmap"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "🏴CbS intermediate roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 🏴CbS intermediate roadmap"
             }
           }
         ],
@@ -185,11 +185,12 @@
   },
   "active": "dd4205876db41889",
   "lastOpenFiles": [
-    "🧭 CyberSecurity roadmap. Starting point 1.md",
-    "README.md",
-    "🏴CbS intermediate roadmap.md",
     "🧭 CyberSecurity roadmap. Starting point.md",
+    "Untitled.md",
+    "🏴CbS intermediate roadmap.md",
     "CbS Roadmap Visualization.canvas",
+    "README.md",
+    "🧭 CyberSecurity roadmap. Starting point 1.md",
     "☁️cloud CbS roadmap.md",
     "Screenshot_20260503_194155.png"
   ]

@@ -2,7 +2,7 @@
 > [!NOTE]
 > This CbS roadmap is the second part for the [[🧭 CyberSecurity roadmap. Starting point]]. Some tryhackme links might be broken or become premium. Anyway you can lookup specific topic on the site or search alternative on THM roadmap https://github.com/Hunterdii/TryHackMe-Roadmap
 
-# 0. [[🧭 CyberSecurity roadmap. Starting point| CbS basic roadmap]]
+# 0. [[🧭 CyberSecurity roadmap. Starting point]]
 
 
 # 🔥1. WEB FUNDAMENTALS (HTTP, cookies, CORS)
