@@ -64,7 +64,7 @@ In this module you can do school 21 projects if you are a school 21 student. If 
 > Here are School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can drop this part if you are not a school 21 / Ecole42 and use alternative path. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
 > Starting from 10th project in School 21, the most fundamental topics are completed and specialization is started. This projects are focused on CbS engineering rather than offensive security so I decided to make them optional though some of the concepts are relevant and helpful (especially 12th and 13 projects)
 
-## Core CbS Ecole42 / School 21projects:
+## Core CbS Ecole42 / School 21 projects:
 ### School 21 / Ecole42 C bootcamp #C #coding #memory_management #git #gdb
 >Learn coding, memory and low-level concepts. Very good foundation for CbS specialist and preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] in the future
 - [ ] C bootcamp 
