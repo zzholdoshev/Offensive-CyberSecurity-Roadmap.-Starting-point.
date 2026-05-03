@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "🏴CbS intermediate roadmap.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for 🏴CbS intermediate roadmap"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "🏴CbS intermediate roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from 🏴CbS intermediate roadmap"
             }
           },
           {
@@ -166,11 +166,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,9 +185,10 @@
   },
   "active": "dd4205876db41889",
   "lastOpenFiles": [
+    "reading list.md",
+    "🏴CbS intermediate roadmap.md",
     "🧭 CyberSecurity roadmap. Starting point.md",
     "Untitled.md",
-    "🏴CbS intermediate roadmap.md",
     "CbS Roadmap Visualization.canvas",
     "README.md",
     "🧭 CyberSecurity roadmap. Starting point 1.md",
