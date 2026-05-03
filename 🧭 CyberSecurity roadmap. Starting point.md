@@ -23,18 +23,19 @@
 	 - [ ] Advanced coding. Learn programming languages like (`C/C++/rust/go`[^1]) on stepik/coursera/github roadmaps etc. Try implementing projects in this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and this: [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Learning C/C++ is mandatory. My recommendations: 
 		  `I could not find comprehensive coursera alternatives for russian C++ courses on stepik/yandex, so for english speakers I suggest using AI for translation or drop them and just use AI for creating you own practical roadmap for learning C++.`
 		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
-			 * some ideas on learning and project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md)
 		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first week.
+		 * some ideas on learning C and project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md)
 		 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex
 		 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best russian-language course on OOP.
-			* C++: [roadmap](https://github.com/salmer/CppDeveloperRoadmap)
-		 * [ ] Rust: official "[rust book](https://rust-book.cs.brown.edu/title-page.html)", quizes included
-		 * [ ] Rust: 30 days of Rust [roadmap](https://github.com/Hunterdii/30-Days-Of-Rust/blob/main/README.md#-30-days-of-rust) - great roadmap
-		 * [ ] Rust: russian-language [course](https://stepik.org/course/195449/syllabus)
-		 * [ ] Rust bootcamp at Ecole42 (**optional**)
-		 * [ ] Go - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). Also review this [course](https://www.w3schools.com/go/index.php)
-		 * [ ] Go bootcamp at Ecole42 / School 21 (**optional**)
-		 * [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) also review these projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) or/and from this [repo](https://github.com/Xtremilicious/projectlearn-project-based-learning). Recommended: backend, malware analysis, blockchain-related. Backend can be implemented within Ecole42 / School21 bootcamp
+		* C++: [roadmap](https://github.com/salmer/CppDeveloperRoadmap)
+		* rust/go are optional but recommended:
+			 * [ ] Rust: official "[rust book](https://rust-book.cs.brown.edu/title-page.html)", quizes included
+			 * [ ] Rust: 30 days of Rust [roadmap](https://github.com/Hunterdii/30-Days-Of-Rust/blob/main/README.md#-30-days-of-rust) - great roadmap
+			 * [ ] Rust: russian-language [course](https://stepik.org/course/195449/syllabus)
+			 * [ ] Rust bootcamp at Ecole42 (**for ecole42 students**)
+			 * [ ] Go - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). Also review this [course](https://www.w3schools.com/go/index.php)
+			 * [ ] Go bootcamp at Ecole42 / School 21 (**for ecole42/school21 students**)
+		* [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) also review these projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Recommended: backend, malware analysis, blockchain-related. Backend projects can be implemented within Ecole42 / School21 bootcamp
 	 * [ ] [Core security from OSSU (OpenSource Society University)](https://github.com/ossu/computer-science?tab=readme-ov-file#core-security) - identifying security vulnerabilities(C++/Java), principles of secure coding #appsec
 	* For additional specialization and pivoting look up different CbS specialization roadmaps on github
 * Do when you are ready:
@@ -57,10 +58,9 @@
 * [ ] [pwn.college](https://pwn.college/fundamentals/data-dealings/) - data & encoding (prerequisite for WEB)
 
 # Core - C, SQL, computer networks and crypto
-In this module you can do school 21 projects if you are a school 21 student. If not - use "alternative" path.
 
 > [!about Ecole42 / school21]
-> Here are School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can drop this part if you are not a school 21 / Ecole42 and use alternative path. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
+> In this module School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can drop this part if you are not a school 21 / Ecole42 and use alternative path. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
 > Starting from 10th project in School 21, the most fundamental topics are completed and specialization is started. This projects are focused on CbS engineering rather than offensive security so I decided to make them optional though some of the concepts are relevant and helpful (especially 12th and 13 projects)
 
 ## Core CbS Ecole42 / School 21 projects:
@@ -110,9 +110,9 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 - [ ] Learn [basic Syntax](https://www.learn-c.org)
 - [ ] C/C++: great russian-language [course](https://stepik.org/course/193691/syllabus)
 - [ ] github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) ^a97ce8
+> OR find, review and complete other courses that cover basic C programming.
 - [ ] learn how to use valgrind and gdb
-OR find, review and complete another courses that cover basic C programming.
-> After that just work on a couple of pet projects. Recommendation: write a game / graphic calculator in C from this [repo](https://github.com/Xtremilicious/projectlearn-project-based-learning). **Use Valgrind to check for memory leaks**, push code to github/gitlab and use clang-format. This will teach you how to think like a programmer as well as some low-level concepts. This is also a preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] 
+> After that just work on a couple of pet projects. Recommendation: write a shell/malloc/something else from this [repo](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md) or/and some C game from this [repo](https://github.com/Xtremilicious/projectlearn-project-based-learning). **Use Valgrind to check for memory leaks**, push code to github/gitlab and use clang-format. This will teach you how to think like a programmer as well as some low-level concepts. This is also a preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] 
 
 
 ### #sql:

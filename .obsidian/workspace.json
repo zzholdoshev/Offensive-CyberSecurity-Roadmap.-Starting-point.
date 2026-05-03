@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏴CbS intermediate roadmap.md",
-                "mode": "source",
+                "file": "🧭 CyberSecurity roadmap. Starting point.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🏴CbS intermediate roadmap"
+              "title": "🧭 CyberSecurity roadmap. Starting point"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏴CbS intermediate roadmap.md",
+                "file": "🧭 CyberSecurity roadmap. Starting point.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 🏴CbS intermediate roadmap"
+              "title": "Backlinks for 🧭 CyberSecurity roadmap. Starting point"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏴CbS intermediate roadmap.md",
+                "file": "🧭 CyberSecurity roadmap. Starting point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 🏴CbS intermediate roadmap"
+              "title": "Outgoing links from 🧭 CyberSecurity roadmap. Starting point"
             }
           },
           {
@@ -156,21 +156,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏴CbS intermediate roadmap.md",
+                "file": "🧭 CyberSecurity roadmap. Starting point.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 🏴CbS intermediate roadmap"
+              "title": "Outline of 🧭 CyberSecurity roadmap. Starting point"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 361.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,12 +186,12 @@
   },
   "active": "dd4205876db41889",
   "lastOpenFiles": [
-    "reading list.md",
     "🏴CbS intermediate roadmap.md",
-    "🧭 CyberSecurity roadmap. Starting point.md",
-    "Untitled.md",
     "CbS Roadmap Visualization.canvas",
     "README.md",
+    "reading list.md",
+    "🧭 CyberSecurity roadmap. Starting point.md",
+    "Untitled.md",
     "🧭 CyberSecurity roadmap. Starting point 1.md",
     "☁️cloud CbS roadmap.md",
     "Screenshot_20260503_194155.png"
