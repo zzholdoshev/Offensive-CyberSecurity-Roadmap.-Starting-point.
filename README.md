@@ -8,7 +8,7 @@
 2. [[🏴Cbs intermediate roadmap|intermediate roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_I #networks_II
 	*  [[☁️cloud CbS roadmap|cloud CbS roadmap]] (**optional**) - a cloud-oriented roadmap for cloud-oriented junior/intern appsec position if you can get one at this level. Otherwise skip this step. #cloud #kubernetes
 3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #privesc_II #programming #code_security #malware^114cf4
-	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module. Linux Luminarium, access control, privEsc, data encoding and crypto are included in both roadmaps.
+	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module. Linux Luminarium, access control, privEsc, data encoding and crypto are included in the first 2 roadmaps.
 	* Review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
 	 - [ ] Reverse engineering, binary exploitation and malware
 		 * [ ] [Nigthmare](https://guyinatuxedo.github.io/) - solid foundation for reverse / binary exploitation, theory + CTF challenges
