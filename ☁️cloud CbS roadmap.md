@@ -114,7 +114,7 @@ Working in the cloud shifts the focus to integrating K8s with the provider's inf
 - [ ] **Vulnerable Lambda (CloudGoat/AWS)**: Exploiting SSRF to steal cloud secrets. [Lab](https://github.com/ine-labs/AWSGoat)
 
 
-# K8S, docker and Networks Courses & Labs
+# K8S and Networks Courses & Labs
 ## K8S games
 
 ^8d161b
@@ -133,7 +133,7 @@ Working in the cloud shifts the focus to integrating K8s with the provider's inf
 - RBAC
 - container breakout
 
-##KillerCoda
+## KillerCoda
 - https://killercoda.com/
 
 ---
