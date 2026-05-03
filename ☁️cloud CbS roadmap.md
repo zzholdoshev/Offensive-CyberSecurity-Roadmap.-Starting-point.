@@ -168,7 +168,7 @@ Working in the cloud shifts the focus to integrating K8s with the provider's inf
 
 * [ ] https://eksclustergames.com
 ---
-##CloudGoat (AWS)
+## CloudGoat (AWS)
 
 ^885d58
 
