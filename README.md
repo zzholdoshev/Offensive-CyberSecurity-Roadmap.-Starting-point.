@@ -20,7 +20,7 @@
 		 * roadmaps:
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
-	 - [ ] Advanced coding. Language courses (`C/C++/rust/go`[^1]) on stepik/coursera/github roadmaps etc. Try implementing projects in this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and this: [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Learning C/C++ is mandatory.
+	 - [ ] Advanced coding. Learn programming languages like (`C/C++/rust/go`[^1]) on stepik/coursera/github roadmaps etc. Try implementing projects in this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and this: [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Learning C/C++ is mandatory. My recommendations: 
 		  `I could not find comprehensive coursera alternatives for russian C++ courses on stepik/yandex, so for english speakers I suggest using AI for translation or drop them and just use AI for creating you own practical roadmap for learning C++.`
 		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
 			 * some ideas on learning and project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md)
