@@ -1,9 +1,9 @@
 
 > [!CbS roadmap]
 >   Series of Cybersecurity roadmaps for those who want to learn offensive security. The roadmaps are intended to be viewed in Obsidian. "Starting point" roadmap is intended primarily as starting point for pentest, contains most important things to help you get started with CTF. Only **Free** labs are included in all roadmaps. Combined with intermediate and advanced roadmaps, it can build a solid foundation for offensive security and help you land a job in CbS. OSINT and stegano are not included in this roadmap - these topics can be explored within the challenges on platforms from [[🧭 CyberSecurity roadmap. Starting point#^8af021|links]])
-![](./Screenshot_20260503_194155.png)
-# Suggested Order ([[CbS Roadmap Visualization.canvas|visualization]]): 
 
+# Suggested Order ([[CbS Roadmap Visualization.canvas|visualization]]): 
+![visualization from .canvas file in obsidian](./Screenshot_20260503_194155.png)
 1. Starting point. Go through this roadmap from top to bottom #basic_cbs #web_I #linux_I #networks_I #CTF #forensics #C #SQL #python #git #gdb 
 2. [[🏴Cbs intermediate roadmap|intermediate roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_I #networks_II
 	*  [[☁️cloud CbS roadmap|cloud CbS roadmap]] (**optional**) - a cloud-oriented roadmap for cloud-oriented junior/intern appsec position if you can get one at this level. Otherwise skip this step. #cloud #kubernetes
