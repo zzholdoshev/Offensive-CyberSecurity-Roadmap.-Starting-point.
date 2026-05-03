@@ -85,7 +85,16 @@
 * [x] s21_7 ✅  crypto_intro
 * [x] s21_8 ✅  crypto_symetric
 * [x] s21_9 ✅  crypto_asymetric
-
+### optional School 21 CbS projects:
+* [ ] s21_10 - data channel protection #openVPN #NGate #TLS #pki
+* [ ] s21_11 - Enterprise_IT_landscape
+* [ ] **s21_12** - network attacks #mitmproxy and basic pentesting tools
+* [ ] **s21_13** - threat detection and #yara, #suricata, #behavioral_analysis
+* [ ] s21_14 - Designing secure network #NGFW #pfsense, #IPSec VPN #iptables
+* [ ] s21_15 - Russian CbS legislation
+* [ ] s21_16 - project lifecycle
+* [ ] s21_17 - physical security
+* [ ] s21_18 - social engineering and #OSINT
 ### Ecole42 CbS projects
 * [ ] Review and complete the most important CbS projects in Ecole42, especially on topics like networks, crypto, linux. Don't go too deep - start doing CTFs and other parts of this roadmap ASAP
 ## Alternative for core CbS Ecole42 / School 21:
@@ -135,16 +144,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 	* Russian-lang courses: [A. Sozykin](https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1)
 	* more advanced networking courses and network security in [[🏴Cbs intermediate roadmap#^9ad11f]]. You don't need CCNA at this point, but you need to know basics - you can try CISCO courses in that roadmap or CCNA if you are **really** interested in networks.
 
-## optional School 21 CbS projects:
-* [ ] s21_10 - data channel protection #openVPN #NGate #TLS #pki
-* [ ] s21_11 - Enterprise_IT_landscape
-* [ ] **s21_12** - network attacks #mitmproxy and basic pentesting tools
-* [ ] **s21_13** - threat detection and #yara, #suricata, #behavioral_analysis
-* [ ] s21_14 - Designing secure network #NGFW #pfsense, #IPSec VPN #iptables
-* [ ] s21_15 - Russian CbS legislation
-* [ ] s21_16 - project lifecycle
-* [ ] s21_17 - physical security
-* [ ] s21_18 - social engineering and #OSINT
+
 
 # Web pentest I and CTF warm-up
 ^dcbdf9
