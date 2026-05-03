@@ -4,6 +4,7 @@
 
 # 0. [[🧭 CyberSecurity roadmap. Starting point| CbS basic roadmap]]
 
+
 # 🔥1. WEB FUNDAMENTALS (HTTP, cookies, CORS)
 
 * [ ] [[🧭 CyberSecurity roadmap. Starting point#^5162dc|Stanford WEB security course(YT)]] - solidify you web knowledge
