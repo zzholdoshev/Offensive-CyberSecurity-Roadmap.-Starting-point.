@@ -113,7 +113,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 - [ ] https://gitmastery.me/intro/
 - [ ] https://learngitbranching.js.org
 #### virtualization and containerization:
- - [ ] learn basic virtualization and containerization (docker)
+ - [ ] learn basic virtualization and containerization (docker [intro](https://docs.docker.com/get-started/introduction/))
  > just read articles, watch youtube lectures, then deploy VMs in KVM/Virtualbox. Run some docker containers - learn about isolation, basic docker networking
 ### #C :
 - [ ] Learn [basic Syntax](https://www.learn-c.org)
