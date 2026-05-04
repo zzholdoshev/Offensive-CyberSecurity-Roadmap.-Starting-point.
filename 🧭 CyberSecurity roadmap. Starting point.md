@@ -20,7 +20,7 @@
 		 * roadmaps:
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
-	 - [ ] Advanced coding. Learn programming languages like (`C/C++/rust/go`[^1]) on stepik/coursera/github roadmaps etc. Try implementing projects in this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and this: [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Learning C/C++ is mandatory.
+	 - [ ] Advanced coding. Learn programming languages like (`C/C++/rust/go`[^1]) on stepik/coursera/github roadmaps etc. Try implementing projects in this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and this: [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Learning C/C++ is mandatory. 
 		  `I could not find comprehensive coursera alternatives for russian C++ courses on stepik/yandex, so for english speakers I suggest using AI for translation or drop them and just use AI for creating you own practical roadmap for learning C++.`
 		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
 		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first week.
@@ -39,6 +39,7 @@
 	 * [ ] [Core security from OSSU (OpenSource Society University)](https://github.com/ossu/computer-science?tab=readme-ov-file#core-security) - identifying security vulnerabilities(C++/Java), principles of secure coding #appsec
 	* For additional specialization and pivoting look up different CbS specialization roadmaps on github
 * Do when you are ready:
+	* CTF (start participating in CTFs as early as possible). Find you local [CTF](https://ctftime.org), or/and join HTB CTF [events](https://ctf.hackthebox.com/events/live) ^fb96d5
 	* CbS games & BugBounty (recommended upon completion of [[🏴Cbs intermediate roadmap]]): ^718bdd
 		* BugBounty: https://bugbounty.standoff365.com/programs/standoff-365?tab=1
 		* https://www.hackerone.com/bug-bounty-programs
@@ -47,7 +48,6 @@
 			`A virtual infrastructure with realistic replicas of systems and software from different industries, in which cybersecurity specialists can train 24/7.` 
 		* Cyberbattle https://cyberbattle.standoff365.com attack-defense CbS game with cash prize
 		* [HacTheBox Fortresses - attack a copy of a real company infra](https://app.hackthebox.com/fortresses) 
-	* CTF (start participating in CTFs as early as possible). Find you local [CTF](https://ctftime.org), or/and join HTB CTF [events](https://ctf.hackthebox.com/events/live) ^fb96d5
 
 # Intro - overview of cybersecurity
 - [ ] CS50 [CyberSecurity](https://youtube.com/playlist?list=PLhQjrBD2T383Cqo5I1oRrbC1EKRAKGKUE&si=03-zJ1H9ROsNyFsC). An introduction to cybersecurity for technical and non-technical audiences alike
@@ -66,25 +66,25 @@
 ## Core CbS Ecole42 / School 21 projects:
 ### School 21 / Ecole42 C bootcamp #C #coding #memory_management #git #gdb
 >Learn coding, memory and low-level concepts. Very good foundation for CbS specialist and preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] in the future
-- [ ] C bootcamp 
+- [x] C bootcamp 
 ### School 21 / Ecole42 sql bootcamp #SQL
-- [ ] SQL bootcamp 
+- [x] SQL bootcamp 
 ### School 21 / Ecole42 devops projects
-- [ ] the first basic devops projects 
+- [x] the first basic devops projects 
 
 >  On topics like linux, network and docker. Don't go too deep into pure devops projects
 ### School 21 CbS projects
 #### School 21 CbS 1-4 projects #networks_I #gns3 #wireshark
-* [ ] s21_1 ✅ 
-* [ ] s21_2 ✅
-* [ ] s21_3 ✅ 
-* [ ] s21_4 ✅ 
+* [x] s21_1 ✅ 
+* [x] s21_2 ✅
+* [x] s21_3 ✅ 
+* [x] s21_4 ✅ 
 #### School 21 CbS 5-9 projects #linux #windows #crypto
-* [ ] s21_5 ✅  linux basics
-* [ ] s21_6 ✅  windows basics
-* [ ] s21_7 ✅  crypto_intro
-* [ ] s21_8 ✅  crypto_symetric
-* [ ] s21_9 ✅  crypto_asymetric
+* [x] s21_5 ✅  linux basics
+* [x] s21_6 ✅  windows basics
+* [x] s21_7 ✅  crypto_intro
+* [x] s21_8 ✅  crypto_symetric
+* [x] s21_9 ✅  crypto_asymetric
 ### optional School 21 CbS projects:
 * [ ] s21_10 - data channel protection #openVPN #NGate #TLS #pki
 * [ ] s21_11 - Enterprise_IT_landscape
@@ -181,7 +181,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | NoSQL Injection](https://tryhackme.com/room/nosqlinjectiontutorial)
 
 #### ⚙️ 4. Input validation and crawls
-* [ ] [TryHackMe | XSS](https://tryhackme.com/room/axss)
+* [x] [TryHackMe | XSS](https://tryhackme.com/room/axss)
 * [ ] [TryHackMe | SSTI](https://tryhackme.com/room/ssti)
 * [ ] [TryHackMe | File Inclusion, Path Traversal](https://tryhackme.com/room/filepathtraversal)
 * [ ] [TryHackMe | SSRF](https://tryhackme.com/room/ssrf)
@@ -190,7 +190,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | OWASP Broken Access Control](https://tryhackme.com/room/owaspbrokenaccesscontrol)
 * [ ] [TryHackMe | CSRF](https://tryhackme.com/room/csrfV2)
 * [ ] [TryHackMe | IDOR](https://tryhackme.com/room/idor-aoc2025-zl6MywQid9)
-* [ ] [TryHackMe | CSRF](https://tryhackme.com/room/csrf)
+* [x] [TryHackMe | CSRF](https://tryhackme.com/room/csrf)
 
 #### 🧩 6. Advanced attacks on HTTP
 * [ ] [TryHackMe | HTTP Request Smuggling](https://tryhackme.com/room/httprequestsmuggling )
@@ -219,7 +219,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | VulnNet](https://tryhackme.com/room/vulnnet)
 * [ ] [TryHackMe | Juicy Details](https://tryhackme.com/room/juicydetails )
 * [ ] [RootMe](https://tryhackme.com/room/rrootme ) — *Classic for beginners.*
-* [ ] [Pickle Rick](https://tryhackme.com/room/picklerick )
+* [x] [Pickle Rick](https://tryhackme.com/room/picklerick )
 * [ ] [Simple CTF](https://tryhackme.com/room/easyctf)
 * [ ] [Merry XSS-Mas](https://tryhackme.com/room/xss-aoc2025-c5j8b1m4t6) - CTF-style XSS room
 
