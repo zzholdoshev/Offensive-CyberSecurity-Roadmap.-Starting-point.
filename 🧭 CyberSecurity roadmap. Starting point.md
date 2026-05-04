@@ -23,7 +23,7 @@
 	 - [ ] Advanced coding. Learn programming languages like (`C/C++/rust/go`[^1]) on stepik/coursera/github roadmaps etc. Try implementing projects in this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and this: [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Learning C/C++ is mandatory. 
 		  `I could not find comprehensive coursera alternatives for russian C++ courses on stepik/yandex, so for english speakers I suggest using AI for translation or drop them and just use AI for creating you own practical roadmap for learning C++.`
 		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
-		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first week.
+		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
 		 * some ideas on learning C and project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md)
 		 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex
 		 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best russian-language course on OOP.
