@@ -10,7 +10,7 @@
 	* [ ] backend bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
 	- [ ] Go bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
    
-   > Alternative for non-students:
+   >An alternative for non-students:
 	* [ ] learn Go syntax - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). [Go by example](https://gobyexample.com). Also review this [course](https://www.w3schools.com/go/index.php)
 	- [ ] build backend as [pet-project](https://roadmap.sh/golang/projects?difficulty=advanced), or search project ideas in any other language
 	
@@ -34,7 +34,7 @@
 		  `I could not find comprehensive coursera alternatives for russian C++ courses on stepik/yandex, so for english speakers I suggest using AI for translation or drop them and just use AI for creating you own practical roadmap for learning C++.`
 		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
 		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
-		 * [ ] implements some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
+		 * [ ] implement some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
 		 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex
 		 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best russian-language course on OOP.
 		* C++: [roadmap and general pointers](https://github.com/salmer/CppDeveloperRoadmap)
@@ -77,25 +77,25 @@
 ## Core CbS Ecole42 / School 21 projects:
 ### School 21 / Ecole42 C bootcamp #C #coding #memory_management #git #gdb
 >Learn coding, memory and low-level concepts. Very good foundation for CbS specialist and preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] in the future
-- [ ] C bootcamp 
+- [x] C bootcamp 
 ### School 21 / Ecole42 sql bootcamp #SQL
-- [ ] SQL bootcamp 
+- [x] SQL bootcamp 
 ### School 21 / Ecole42 devops projects
-- [ ] the first basic devops projects 
+- [x] the first basic devops projects 
 
 >  On topics like linux, network and docker. Don't go too deep into pure devops projects
 ### School 21 CbS projects
 #### School 21 CbS 1-4 projects #networks_I #gns3 #wireshark
-* [ ] s21_1 ✅ 
-* [ ] s21_2 ✅
-* [ ] s21_3 ✅ 
-* [ ] s21_4 ✅ 
+* [x] s21_1 ✅ 
+* [x] s21_2 ✅
+* [x] s21_3 ✅ 
+* [x] s21_4 ✅ 
 #### School 21 CbS 5-9 projects #linux #windows #crypto
-* [ ] s21_5 ✅  linux basics
-* [ ] s21_6 ✅  windows basics
-* [ ] s21_7 ✅  crypto_intro
-* [ ] s21_8 ✅  crypto_symetric
-* [ ] s21_9 ✅  crypto_asymetric
+* [x] s21_5 ✅  linux basics
+* [x] s21_6 ✅  windows basics
+* [x] s21_7 ✅  crypto_intro
+* [x] s21_8 ✅  crypto_symetric
+* [x] s21_9 ✅  crypto_asymetric
 ### optional School 21 CbS projects:
 * [ ] s21_10 - data channel protection #openVPN #NGate #TLS #pki
 * [ ] s21_11 - Enterprise_IT_landscape
@@ -193,7 +193,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | NoSQL Injection](https://tryhackme.com/room/nosqlinjectiontutorial)
 
 #### ⚙️ 4. Input validation and crawls
-* [ ] [TryHackMe | XSS](https://tryhackme.com/room/axss)
+* [x] [TryHackMe | XSS](https://tryhackme.com/room/axss)
 * [ ] [TryHackMe | SSTI](https://tryhackme.com/room/ssti)
 * [ ] [TryHackMe | File Inclusion, Path Traversal](https://tryhackme.com/room/filepathtraversal)
 * [ ] [TryHackMe | SSRF](https://tryhackme.com/room/ssrf)
@@ -232,7 +232,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | TakeOver](https://tryhackme.com/room/takeover )
 * [ ] [TryHackMe | Corridor](https://tryhackme.com/room/corridor )
 * [ ] [RootMe](https://tryhackme.com/room/rrootme ) — *Classic for beginners.*
-* [ ] [Pickle Rick](https://tryhackme.com/room/picklerick )
+* [x] [Pickle Rick](https://tryhackme.com/room/picklerick )
 * [ ] [Simple CTF](https://tryhackme.com/room/easyctf)
 * [ ] [Merry XSS-Mas](https://tryhackme.com/room/xss-aoc2025-c5j8b1m4t6) - CTF-style XSS room
 
