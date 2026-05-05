@@ -4,9 +4,19 @@
 
 # Suggested Order ([[CbS Roadmap Visualization.canvas|visualization]]): 
 
-1.  Starting point. Go through this roadmap from top to bottom #basic_cbs #web_I #linux_I #networks_I #CTF #forensics #C #SQL #python #git #gdb 
+1.  Starting point. Go through this roadmap from top to bottom, starting from [[🧭 CyberSecurity roadmap. Starting point#^06e269|Intro]] #basic_cbs #web_I #linux_I #networks_I #CTF #forensics #C #SQL #python #git #gdb 
 2. [[🏴Cbs intermediate roadmap|intermediate roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_I #networks_II
-	*  [[☁️cloud CbS roadmap|cloud CbS roadmap]] (**optional**) - a cloud-oriented roadmap for cloud-oriented junior/intern appsec position if you can get one at this level. Otherwise skip this step. #cloud #kubernetes
+	> In order to better understand web apps - try building something. In terms of languages I suggest Go[^1](could be Java or any other language used for backend):
+	* [ ] backend bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
+	- [ ] Go bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
+   
+   > Alternative for non-students:
+	* [ ] learn Go syntax - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). [Go by example](https://gobyexample.com). Also review this [course](https://www.w3schools.com/go/index.php)
+	- [ ] build backend as [pet-project](https://roadmap.sh/golang/projects?difficulty=advanced), or search project ideas in any other language
+	
+	> optional:
+	* [ ] [[☁️cloud CbS roadmap|cloud CbS roadmap]] - a cloud-oriented roadmap for junior/intern appsec position in cloud. Otherwise skip this step. #cloud #kubernetes
+	
 3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #privesc_II #programming #code_security #malware^114cf4
 	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module. Linux Luminarium, access control, privEsc, data encoding and crypto are included in the first 2 roadmaps.
 	* Review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
@@ -20,22 +30,20 @@
 		 * roadmaps:
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
-	 - [ ] Advanced coding. Learn programming languages like (`C/C++/rust/go`[^1]) on stepik/coursera/github roadmaps etc. Try implementing projects in this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and this: [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Learning C/C++ is mandatory. 
+	 - [ ] Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. Learning C/C++ is mandatory. 
 		  `I could not find comprehensive coursera alternatives for russian C++ courses on stepik/yandex, so for english speakers I suggest using AI for translation or drop them and just use AI for creating you own practical roadmap for learning C++.`
 		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
 		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
-		 * some ideas on learning C and project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md)
+		 * [ ] implements some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
 		 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex
 		 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best russian-language course on OOP.
-		* C++: [roadmap](https://github.com/salmer/CppDeveloperRoadmap)
-		* rust/go are optional but recommended:
+		* C++: [roadmap and general pointers](https://github.com/salmer/CppDeveloperRoadmap)
+		* rust is optional but recommended:
 			 * [ ] Rust: official "[rust book](https://rust-book.cs.brown.edu/title-page.html)", quizes included
 			 * [ ] Rust: 30 days of Rust [roadmap](https://github.com/Hunterdii/30-Days-Of-Rust/blob/main/README.md#-30-days-of-rust) - great roadmap
 			 * [ ] Rust: russian-language [course](https://stepik.org/course/195449/syllabus)
 			 * [ ] Rust bootcamp at Ecole42 (**for ecole42 students**)
-			 * [ ] Go - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). Also review this [course](https://www.w3schools.com/go/index.php)
-			 * [ ] Go bootcamp at Ecole42 / School 21 (**for ecole42/school21 students**)
-		* [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) also review these projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Recommended: backend, malware analysis, blockchain-related. Backend projects can be implemented within Ecole42 / School21 bootcamp
+		* [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and review these projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Recommended: for web/infra pentest - web server, browser, network stack, dns server, for low-level -  docker, shell, emulator
 	 * [ ] [Core security from OSSU (OpenSource Society University)](https://github.com/ossu/computer-science?tab=readme-ov-file#core-security) - identifying security vulnerabilities(C++/Java), principles of secure coding #appsec
 	* For additional specialization and pivoting look up different CbS specialization roadmaps on github
 * Do when you are ready:
@@ -50,6 +58,9 @@
 		* [HacTheBox Fortresses - attack a copy of a real company infra](https://app.hackthebox.com/fortresses) 
 
 # Intro - overview of cybersecurity
+
+^06e269
+
 - [ ] CS50 [CyberSecurity](https://youtube.com/playlist?list=PLhQjrBD2T383Cqo5I1oRrbC1EKRAKGKUE&si=03-zJ1H9ROsNyFsC). An introduction to cybersecurity for technical and non-technical audiences alike
 # Intro - linux and data encoding
 
@@ -153,17 +164,18 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 *   active machines on HTB (optional for this roadmap, but very useful in general)
 
 ## WEB pentest I:
-### overthewire web pentest I:
-* [ ] [overthewire natas](https://overthewire.org/wargames/natas/) #web 
-### [THM](https://tryhackme.com) #web pentest I:
+### overthewire web wargame:
+* [ ] [overthewire natas](https://overthewire.org/wargames/natas/)  - legendary wargame for getting into web pentest #web 
+### [THM](https://tryhackme.com) #web rooms:
 
 * [ ] install and learn burp [suite](https://tryhackme.com/room/burpsuiterepeater) 
 > OR / AND
 * [ ] install and learn [OWASP ZAP](https://tryhackme.com/room/learnowaspzap) ^a0641b
 
->some links might be broken, search alternatives on [THM](https://tryhackme.com)
+>some links might be broken, search alternatives on [THM](https://tryhackme.com) and [here](https://github.com/Hunterdii/TryHackMe-Roadmap#web)
 #### 🧱 1. Fundamentals of Web technologies
 * [ ] [TryHackMe | HTTP in detail](https://tryhackme.com/room/httpindetail)
+* [ ] [TryHackMe | How website work](https://tryhackme.com/room/howwebsiteswork)
 * [ ] [TryHackMe | Walking An Application](https://tryhackme.com/room/walkinganapplication)
 * [ ] [TryHackMe | Web Application Basics](https://tryhackme.com/room/webapplicationbasics)
 
@@ -217,6 +229,8 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | Develpy](https://tryhackme.com/room/develpy)
 * [ ] [TryHackMe | VulnNet](https://tryhackme.com/room/vulnnet)
 * [ ] [TryHackMe | Juicy Details](https://tryhackme.com/room/juicydetails )
+* [ ] [TryHackMe | TakeOver](https://tryhackme.com/room/takeover )
+* [ ] [TryHackMe | Corridor](https://tryhackme.com/room/corridor )
 * [ ] [RootMe](https://tryhackme.com/room/rrootme ) — *Classic for beginners.*
 * [ ] [Pickle Rick](https://tryhackme.com/room/picklerick )
 * [ ] [Simple CTF](https://tryhackme.com/room/easyctf)
@@ -279,4 +293,4 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 	* WannaCry malware [analysis](https://www.youtube.com/playlist?list=PLniOzp3l9V83Yf52IXJTvW9rjstdqkduP) 
 
 
-[^1]: this languages were chosen because: C/C++ are very fundamental in terms of CS in general, knowing C helps in reverse engineering and binary exploitation, C++ is used for creating malware and most desktop apps, as well as apps for critical infrastructure and embedded. Rust is memory-safe and will replace C/C++ in most critical infrastructure, go is efficient for backend and has some interesting concepts. You can choose other languages, for example if you are interested in mobile - java/kotlin/swift. Python is not included because it is a default scripting language for pentest, you should know it at this point. JS is not included because you should learn it by doing WEB pentesting at basic level - going too deep in frontend is pointless. PHP is not included because it is becoming legacy, just learn php vulnerabilities. 
+[^1]: this languages were chosen because: C/C++ are very fundamental in terms of CS in general, knowing C helps in reverse engineering and binary exploitation, C++ is used for creating malware and most desktop apps, as well as apps for critical infrastructure and embedded. Rust is memory-safe and will replace C/C++ in most critical infrastructure, Go is efficient for backend and has some interesting concepts. You can choose other languages, for example if you are interested in mobile - java/kotlin/swift. Python is not included because it is a default scripting language for pentest, you should know it at this point. JS is not included because you should learn it by doing WEB pentesting at basic level - going too deep in frontend is pointless. PHP is not included because it is becoming legacy, just learn php vulnerabilities. 
