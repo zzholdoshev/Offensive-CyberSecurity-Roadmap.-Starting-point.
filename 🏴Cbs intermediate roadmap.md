@@ -1,0 +1,465 @@
+
+> [!NOTE]
+> This CbS roadmap is the second part for the [[🧭 CyberSecurity roadmap. Starting point]]. Some tryhackme links might be broken or become premium. Anyway you can lookup specific topic on the site or search alternative on THM roadmap https://github.com/Hunterdii/TryHackMe-Roadmap
+
+# 0. [[🧭 CyberSecurity roadmap. Starting point]]
+# #web_II
+# 🔥1. WEB FUNDAMENTALS (HTTP, cookies, CORS)
+-  web pentest I is covered in [[🧭 CyberSecurity roadmap. Starting point#^dcbdf9|cbs roadmap]] 
+	all free rooms: https://github.com/Hunterdii/TryHackMe-Roadmap?tab=readme-ov-file#web
+
+* [ ] [[🧭 CyberSecurity roadmap. Starting point#^5162dc|Stanford WEB security course(YT)]] - solidify you web knowledge
+
+## 🟢 PortSwigger Server side vulnerabilities
+
+* [ ] https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice
+
+
+# 💉 2. CLASSIC WEB VULNS (XSS, SQLi, CSRF)
+
+>At this point you can just complete all learning paths on [portswigger academy](https://portswigger.net/web-security/learning-paths/).
+## 🟢 Most popular portswigger modules from easy to hard:
+
+### ⚪ TIER 0 — FOUNDATION (Before anything else)
+
+#### 🛠️ Essential Skills
+* [ ] https://portswigger.net/web-security/essential-skills
+*Covers: Burp Suite basics, encoding obfuscation, using Burp Scanner, core methodology — master these before touching vulnerabilities.*
+* [ ] learn [[🧭 CyberSecurity roadmap. Starting point#^a0641b|OWASP ZAP]]
+---
+
+### 🟢 TIER 1 — CRITICAL (Most common in real pentests / bug bounty)
+
+#### 🔥 SQL Injection
+- [ ] https://portswigger.net/web-security/sql-injection
+
+#### 🔥 Cross-Site Scripting (XSS)
+ - [ ] https://portswigger.net/web-security/cross-site-scripting
+
+#### 🔥 Authentication
+ - [ ] https://portswigger.net/web-security/authentication
+
+#### 🔥 Access Control (IDOR)
+ - [ ] https://portswigger.net/web-security/access-control
+
+#### 🔥 CSRF
+ - [ ] https://portswigger.net/web-security/csrf
+
+---
+
+### 🟡 TIER 2 — HIGH VALUE (Very common + practical exploitation)
+
+#### SSRF
+ - [ ] https://portswigger.net/web-security/ssrf
+
+#### File Upload Vulnerabilities
+- [ ] https://portswigger.net/web-security/file-upload
+
+#### Command Injection
+- [ ] https://portswigger.net/web-security/os-command-injection
+
+#### Path Traversal
+- [ ] https://portswigger.net/web-security/file-path-traversal
+
+#### XXE
+- [ ] https://portswigger.net/web-security/xxe
+
+#### Business Logic Vulnerabilities
+- [ ] https://portswigger.net/web-security/logic-flaws
+
+#### Information Disclosure
+- [ ] https://portswigger.net/web-security/information-disclosure
+
+---
+
+### 🟠 TIER 3 — IMPORTANT (Frequently used in chains)
+
+#### CORS
+- [ ] https://portswigger.net/web-security/cors
+
+#### Clickjacking
+- [ ] https://portswigger.net/web-security/clickjacking
+
+#### DOM-based Vulnerabilities
+- [ ] https://portswigger.net/web-security/dom-based
+
+#### WebSockets
+- [ ] https://portswigger.net/web-security/websockets
+
+#### Race Conditions
+- [ ] https://portswigger.net/web-security/race-conditions
+
+#### NoSQL Injection
+- [ ] https://portswigger.net/web-security/nosql-injection
+
+#### API Testing
+- [ ] https://portswigger.net/web-security/api-testing
+
+---
+
+### 🔴 TIER 4 — ADVANCED (High-impact, harder to find)
+
+#### HTTP Request Smuggling
+- [ ] https://portswigger.net/web-security/request-smuggling
+
+#### Insecure Deserialization
+- [ ] https://portswigger.net/web-security/deserialization
+
+#### Server-Side Template Injection (SSTI)
+- [ ] https://portswigger.net/web-security/server-side-template-injection
+
+#### JWT Attacks
+- [ ] https://portswigger.net/web-security/jwt
+
+#### OAuth 2.0 Vulnerabilities
+- [ ] https://portswigger.net/web-security/oauth
+
+#### Prototype Pollution
+- [ ] https://portswigger.net/web-security/prototype-pollution
+
+#### GraphQL
+- [ ] https://portswigger.net/web-security/graphql
+
+---
+
+### 🟣 TIER 5 — SPECIALIZED / BUG BOUNTY GOLD
+
+#### Web Cache Poisoning
+- [ ] https://portswigger.net/web-security/web-cache-poisoning
+
+#### Web Cache Deception
+- [ ] https://portswigger.net/web-security/web-cache-deception
+
+#### HTTP Host Header Attacks
+- [ ] https://portswigger.net/web-security/host-header
+
+---
+
+### ⚫ TIER 6 — NEW / RESEARCH / NICHE
+
+#### Web LLM Attacks
+- [ ] https://portswigger.net/web-security/llm-attacks
+
+#### Dangling Markup Injection
+- [ ] https://portswigger.net/web-security/cross-site-scripting/dangling-markup
+
+#### Client-Side Template Injection
+- [ ] https://portswigger.net/web-security/client-side-template-injection
+
+
+---
+
+## 🟢 Local vulnerable web apps
+
+^cf620a
+
+### OWASP Juice Shop
+* [ ] https://owasp.org/www-project-juice-shop/
+* https://tryhackme.com/room/owaspjuiceshop
+### OWASP WebGoat
+* [ ] https://owasp.org/www-project-webgoat/
+*  https://github.com/WebGoat/WebGoat  
+*  https://tryhackme.com/room/webgoat  
+### DVWA (Damn Vulnerable Web App)
+* [ ] https://github.com/digininja/DVWA  
+ ---
+## 🟢 [[🧭 CyberSecurity roadmap. Starting point#^8af021|other links]]
+
+---
+# #infra #privesc_I 
+# 🐧 3. Linux PrivEsc + 🐳 Docker Security Labs (FREE ONLY)
+^5207fe
+
+> Curated for **pentest / AppSec**, mapped to:
+> - permissions, users, privesc
+> - namespaces, cgroups, capabilities
+> - kernel exploits, /proc
+> - Docker internals & attacks
+
+
+## 🧠 1. Linux Basics (files, users, permissions)
+
+- [ ] [OverTheWire](https://overthewire.org/wargames/bandit/) — Bandit. Old but gold classic. Also covered in [[🧭 CyberSecurity roadmap. Starting point#^0accf7]]
+- [ ] [pwn.college](https://pwn.college/linux-luminarium/) — Linux Luminarium (very basic). Do not waste too much time on it, you can complete some of the modules you dont know. Also covered in Starting point roadmap.
+* [ ] pwn.college [access control](https://pwn.college/intro-to-cybersecurity/access-control/)
+ ^1bddeb
+
+## 🔐 2. Linux Privilege Escalation (SUID, sudo, PATH, /etc/passwd, /proc)
+
+### 🟢 TryHackMe
+
+- [ ] TryHackMe — Linux PrivEsc  
+  https://tryhackme.com/room/linuxprivesc
+- [ ] TryHackMe — Linux PrivEsc Arena  
+  https://tryhackme.com/room/linuxprivescarena
+- [ ] TryHackMe — Linux Privilege Escalation  
+  https://tryhackme.com/room/linprivesc
+- [ ] TryHackMe   Sudo bypass https://tryhackme.com/room/sudovulnsbypass
+- [ ] TryHackMe Sudo BuffOverlow https://tryhackme.com/room/sudovulnsbof
+- [ ] https://tryhackme.com/room/linuxagency
+* [ ] more TryHackMe rooms  https://github.com/Hunterdii/TryHackMe-Roadmap?tab=readme-ov-file#privesc
+
+### Pwn.College
+* [ ] pwn.college (SUID/SUDO/CVEs) https://pwn.college/privilege-escalation~6d04fe7a/
+* [ ] pwn.college program misuse / SUID https://pwn.college/fundamentals/program-misuse/
+
+### Vulnhub
+* [ ] Vulnhub  basic pentesting [linux] https://www.vulnhub.com/entry/basic-pentesting-1,216/
+* [ ] Vulnhub linsecurity https://www.vulnhub.com/entry/linsecurity-1,244/
+- [ ] VulnHub — Escalate My Privileges  https://www.vulnhub.com/entry/escalate-my-privileges-1,448/
+- [ ] VulnHub - linux privesc https://www.vulnhub.com/entry/escalate_linux-1,323/
+- [ ] VulnHub — Nebula (SUID, PATH, env, etc.)  https://www.vulnhub.com/series/exploit-exercises,11/
+- [ ] VulnHub https://www.vulnhub.com/entry/basic-pentesting-1,216/  
+- [ ] VulnHub https://www.vulnhub.com/entry/kioptrix-level-1-1,22/  
+- [ ] VulnHub https://www.vulnhub.com/entry/mr-robot-1,151/  
+- [ ] VulnHub Vulnix https://www.vulnhub.com/entry/hacklab-vulnix,48/
+
+
+
+## ⚙️ 3. Kernel, /proc, low-level Linux (optional)
+
+- [ ] TryHackMe — Dirty Pipe (kernel exploit)  
+  https://tryhackme.com/room/dirtypipe
+- [ ] pwn.college — Kernel Security  
+  https://pwn.college/system-security/kernel-security/
+- [ ] pwn.college — Kernel Exploitation  
+  https://pwn.college/software-exploitation/kernel-exploitation
+
+* [ ] pwn.college system exploitation https://pwn.college/system-security/system-exploitation/
+
+
+## 🐳 4. Docker Fundamentals
+### ==first watch:==
+* [ ] [[reading list#^1e926e|how docker works]]
+* [ ] https://www.youtube.com/watch?v=el7768BNUPw
+* [ ] https://www.youtube.com/watch?v=rJRLZfk3a8U - 1:49h long vido about linux containers
+* [ ] https://www.youtube.com/watch?v=-YnMr1lj4Z8
+* [ ] https://www.youtube.com/watch?v=CemSAcfTsxg
+* [ ] [[reading list#^15a7cb|article suggested by yandex - container security]]
+### 🟢 TryHackMe
+
+- [ ] TryHackMe — Intro to Docker  
+  https://tryhackme.com/room/introtodockerk8pdqk
+- [ ] TryHackMe — Intro to Containerisation  
+  https://tryhackme.com/room/introtocontainerisation
+  - [ ] https://tryhackme.com/room/container-security-aoc2025-z0x3v6n9m2 - container security
+* [ ] TryHackMe  breaking out of docker container https://tryhackme.com/room/dogcat
+* [ ] https://tryhackme.com/hacktivities/search?page=1&kind=all&searchText=docker&contentSubType=free&difficulty=medium - FREE medium docker labs on THM
+
+### other popular docker labs
+
+- [ ] Dockerlabs — Basics  
+  https://dockerlabs.collabnix.com/beginners/
+
+## 🔬 5. Docker Internals (namespaces, cgroups, union FS)
+
+- [ ] pwn.college sandboxing https://pwn.college/system-security/sandboxing/
+
+- [ ] Dockerlabs — cgroups  
+  https://dockerlabs.collabnix.com/advanced/security/cgroups/https://pwn.college/system-security/sandboxing/
+
+- [ ] Dockerlabs — Capabilities  
+  https://dockerlabs.collabnix.com/advanced/security/capabilities/
+
+
+## 🛡️ 6. Docker Security (seccomp, AppArmor, isolation)
+
+- [ ] Dockerlabs — Seccomp  
+  https://dockerlabs.collabnix.com/advanced/security/seccomp/
+
+- [ ] Dockerlabs — AppArmor  
+  https://dockerlabs.collabnix.com/advanced/security/apparmor/
+- [ ] Dockerlabs — Image Trust / Supply Chain  
+  https://github.com/collabnix/dockerlabs/blob/master/advanced/workshop/README.md
+
+
+## 💣 7. Docker Attacks / Breakout Practice
+
+- [ ] VulnHub — Vulnerable Docker  
+  https://www.vulnhub.com/entry/vulnerable-docker-1,208/
+
+- [ ] VulnHub — Down By The Docker  
+  https://www.vulnhub.com/entry/down-by-the-docker-1,222/
+
+- [ ] VulnHub — myHouse7 (multi-container env)  
+  https://www.vulnhub.com/entry/myhouse7-1,286/
+
+
+## 🎥 8. YouTube (HIGH VALUE)
+
+### Docker / Namespaces
+- [ ] LiveOverflow — How Docker Works (namespaces)  
+  https://www.youtube.com/watch?v=-YnMr1lj4Z8
+
+- [ ] LiveOverflow — Container Deep Dive  
+  https://www.youtube.com/watch?v=sHp0Q3rvamk
+
+### Linux Privilege Escalation
+- [ ] HackerSploit — Dirty Pipe  
+  https://www.youtube.com/watch?v=af0PGYaqIWA
+
+- [ ] John Hammond — Linux PrivEsc examples  
+  https://www.youtube.com/watch?v=szOQHJL2Bs8
+
+### Docker Security / Privesc
+- [ ] Docker group → root escalation  
+  https://www.youtube.com/watch?v=pRBj2dm4CDU
+
+
+> If you want to go deeper - study pwn.college and solve CTF. [[🧭 CyberSecurity roadmap. Starting point#^114cf4|go deeper in low-level security]]
+
+## 🏁 Goal (what you should be able to do)
+
+- [ ] Enumerate Linux system for privesc
+- [ ] Abuse SUID, sudo, PATH, env
+- [ ] Read `/proc` for secrets/leaks
+- [ ] Exploit kernel vulnerabilities (optional)
+- [ ] Identify container environment
+- [ ] Abuse Docker socket / misconfig
+- [ ] Escape container → host
+---
+
+# #windows_I 
+# 🪟 4. Windows privesc
+## TryHackMe
+
+* [ ] https://tryhackme.com/room/windows10privesc
+* [ ] https://tryhackme.com/room/anthem
+* [ ] https://tryhackme.com/room/windowsprivescarena
+* [ ] windows privesc (Ctf-like) https://tryhackme.com/room/blueprint
+* [ ] https://tryhackme.com/room/vulnnetactive
+* [ ] https://tryhackme.com/room/atlas
+* https://github.com/Hunterdii/TryHackMe-Roadmap?tab=readme-ov-file#privesc
+
+# #AD
+# 🧠 5. ACTIVE DIRECTORY + KERBEROS
+
+## 🟢 TryHackMe
+* [ ] https://tryhackme.com/room/winadbasics
+* [ ] https://tryhackme.com/r/room/attacktivedirectory  
+* [ ] https://tryhackme.com/room/winadbasics
+* [ ] https://tryhackme.com/room/adbasicenumeration
+* [ ] https://tryhackme.com/r/room/redteamfundamentals  
+* [ ] https://tryhackme.com/r/room/postexploit
+* [ ] https://tryhackme.com/room/raz0rblack
+* [ ] https://tryhackme.com/room/enterprise - hard CTF-like AD room
+*  https://github.com/Hunterdii/TryHackMe-Roadmap?tab=readme-ov-file#active%20directory
+
+## 🎮 [GOAD - game of Active Directory](https://orange-cyberdefense.github.io/GOAD/)
+
+^f30dd9
+
+# #networks_II
+# 🌐 6. Networking
+
+^9ad11f
+## labs
+- [ ] https://tryhackme.com/room/introtonetworking
+- [ ] https://tryhackme.com/room/httpindetail
+- [ ] https://tryhackme.com/room/dnsindetail
+- [ ] https://pwn.college/fundamentals/talking-web/
+- [ ] passive reckon https://tryhackme.com/room/passiverecon
+- [ ] active reckon https://tryhackme.com/room/activerecon
+- [ ] nmap https://tryhackme.com/room/nmap01
+* [ ] network scanning tools: https://tryhackme.com/room/vulnerabilityscanningtools
+* [ ] https://tryhackme.com/module/network-security
+* [ ] https://tryhackme.com/room/networkdiscoverydetection
+* [ ] THM all networking https://github.com/Hunterdii/TryHackMe-Roadmap?tab=readme-ov-file#networking
+## courses
+- [ ] CCNA FULL COURSE with labs (very big) - [jeremy's IT lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
+- [ ] cisco free course - cisco packet tracer  https://www.netacad.com/courses/getting-started-cisco-packet-tracer?courseLang=en-US
+- [ ] cisco free course - cisco packet tracer (2) https://www.netacad.com/courses/exploring-networking-cisco-packet-tracer?courseLang=en-US
+- [ ] cisco network engineer course https://www.netacad.com/career-paths/network-technician?courseLang=en-US
+- [ ] network defense https://www.netacad.com/courses/network-defense?courseLang=en-US
+
+---
+
+# ⚔️ Offensive Security Additions
+
+## 1. Advanced Infrastructure Attacks
+* [ ] **Active Directory Attacks**: LLMNR/NBT-NS Poisoning, Kerberoasting, AS-REP Roasting, Pass-the-Hash, Pass-the-Ticket.
+* [ ] **Relay Attacks**: SMB Relaying to gain shell access without cracking passwords.
+* [ ] **Lateral Movement**: Moving from a compromised workstation to a Domain Controller.
+
+## 2. Post-Exploitation & Pivoting
+* [ ] **Pivoting & Tunneling**: Using tools like Chisel, Ligolo-ng, or SSH tunnels to reach internal networks from the outside.
+* [ ] **Living off the Land (LotL)**: Using built-in Windows/Linux tools (LOLBAS/GTFOBins) for discovery and execution to avoid detection.
+* [ ] **Credential Dumping**: Extracting hashes and tickets from LSASS and the SAM database.
+
+## 3. Advanced Web Offensive
+* [ ] **Insecure Deserialization**: Exploiting how applications handle object serialization.
+* [ ] **HTTP Request Smuggling**: Bypassing security controls by desynchronizing front-end and back-end servers.
+* [ ] **API Pentesting**: Attacking REST/GraphQL endpoints and exploiting Broken Object Level Authorization (BOLA).
+
+
+# 🔧 Essential Tools for offensive security
+
+## 🔭 Reconnaissance & Information Gathering
+Tools used in the initial phase to map out the target's attack surface, including network topology, domain structure, and public information.
+
+| Tool             | Description                                                                                                                                                                                                                                                                              |
+| :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nmap**         | The industry standard for network discovery and security auditing. Used for host discovery, port scanning, service/OS detection, and running custom scripts with the Nmap Scripting Engine (NSE).                                                                                        |
+| **Maltego**      | A powerful tool for graphical link analysis and open-source intelligence (OSINT) gathering. It maps relationships between people, domains, IP addresses, and social media profiles.                                                                                                      |
+| **Shodan**       | The industry standard for discovering internet-connected devices (from webcams to industrial control systems). It scans for open ports, grabs service banners, and can identify known vulnerabilities (CVEs) on exposed assets                                                           |
+| **SpiderFoot**   | An open-source intelligence automation tool. It integrates with hundreds of data sources (including Shodan, Censys, and AlienVault OTX) to automatically collect and correlate OSINT on a given target, from IP addresses and domain names to email addresses and social media profiles. |
+| **theHarvester** | A command-line tool for gathering emails, subdomains, hosts, and employee names from public sources like search engines and social networks.                                                                                                                                             |
+
+## 🛡️ Vulnerability Scanning & Management
+Tools that automate the process of identifying known security issues, misconfigurations, and missing patches across networks, systems, and web applications.
+
+| Tool | Description |
+|:-----|:------------|
+| **Nessus** | One of the most widely deployed vulnerability scanners, known for its extensive plugin library and comprehensive coverage for compliance audits (e.g., PCI-DSS, HIPAA). |
+| **OpenVAS** | A powerful open-source vulnerability scanner and manager. It provides a free alternative to commercial scanners and is maintained as part of the Greenbone Vulnerability Management framework. |
+| **Nuclei** | A fast, template-based vulnerability scanner for web applications, networks, and cloud environments. It uses YAML-based templates to detect vulnerabilities, misconfigurations, and exposures across a wide range of targets. |
+| **Nikto** | A fast, open-source web server scanner designed to find over 6,700 potentially dangerous files, outdated software, and other misconfigurations on web servers. |
+
+## 🕸️ Web Application Testing (DAST)
+Specialized tools for identifying and exploiting vulnerabilities in running websites, APIs, and web services (Dynamic Application Security Testing).
+
+| Tool | Description |
+|:-----|:------------|
+| **Burp Suite** | The gold standard for manual web application security testing. Its intercepting proxy allows testers to view and manipulate web traffic, and it includes essential tools like Repeater, Intruder, and an active scanner. |
+| **OWASP ZAP** | A popular free and open-source web application security scanner. It's a great alternative to Burp Suite, offering both automated scanning and manual testing capabilities, with strong CI/CD integration. |
+| **SQLmap** | An automated tool for detecting and exploiting SQL injection vulnerabilities. It can identify injection points, fingerprint databases, and extract data. |
+
+## 🔬 Static Application Security Testing (SAST)
+Tools that analyze source code, bytecode, or binary code to identify security vulnerabilities without executing the application.
+
+| Tool | Description |
+|:-----|:------------|
+| **Semgrep** | A fast, open-source static analysis tool that enforces code standards and finds bugs and security vulnerabilities. It supports 30+ languages and uses intuitive, customizable rules, making it ideal for developer-first security programs . |
+| **SonarQube** | An industry-standard platform for continuous code quality and security inspection. It combines SAST with code quality metrics across 40+ languages, featuring a low false-positive rate (under 3%) and deep IDE/CI/CD integration . |
+| **Checkmarx (CxSAST)** | An enterprise-grade SAST solution that provides broad language coverage and a hybrid query/AI-based engine. It is designed for modern development pipelines and includes features like AI-powered remediation and scanning of uncompiled code . |
+| **PT Application Inspector** | A SAST tool by Positive Technologies featuring advanced AI-powered analysis that reportedly reduces false positives by up to 60%. It supports over 30 programming languages and integrates seamlessly into CI/CD pipelines . |
+| **Svace** | A static analyzer developed by the Russian Academy of Sciences (ISP RAS) for detecting bugs and security vulnerabilities in C/C++, Java, and C# code. It identifies memory errors, concurrency issues, and security flaws like buffer overflows . |
+| **Solar AppScreener** | A Russian-developed application security testing solution that combines SAST, DAST, and SCA capabilities. It is certified by the FSTEC of Russia for use in government and critical infrastructure applications . |
+
+## 🔓 Secrets & Dependency Scanning
+Tools used to detect hardcoded secrets, credentials, and vulnerable open-source dependencies in code and containers.
+
+| Tool | Description |
+|:-----|:------------|
+| **Gitleaks** | A SAST tool specialized in detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories. It searches commit history and the filesystem for high-entropy strings, helping prevent credential leakage . |
+| **Trivy** | A comprehensive and versatile security scanner that covers vulnerabilities (CVEs), misconfigurations, secrets, and SBOM generation. It can scan container images, filesystems, Git repositories, Kubernetes clusters, and cloud environments . |
+
+## 🔬 Reverse Engineering & Binary Exploitation
+Tools used for analyzing compiled software to understand its inner workings or find vulnerabilities.
+
+| Tool | Description |
+|:-----|:------------|
+| **Ghidra** | A free and open-source software reverse engineering (SRE) framework developed by the National Security Agency (NSA). |
+| **IDA Pro** | The industry standard for advanced static analysis and disassembly of binary executables. |
+| **Cutter** | A powerful, user-friendly, and free reverse engineering platform built on the Rizin framework. It features a graphical interface, decompiler, and emulation capabilities, with an MCP plugin enabling AI-assisted analysis . |
+| **GDB (GNU Debugger)** | The standard debugger for Linux systems, essential for binary exploitation and understanding program flow. |
+
+## 📋 Methodologies & Standards
+Industry-standard frameworks and knowledge bases that guide security testing, vulnerability classification, and risk management.
+
+| Framework           | Description                                                                                                                                                                                                                                                                                                    |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **OWASP**           | The Open Web Application Security Project provides essential resources including the OWASP Top 10 (listing critical web app risks), the ASVS (Application Security Verification Standard), and the WSTG (Web Security Testing Guide). It is the foundational methodology for web application security testing. |
+| **MITRE ATT&CK**    | A globally-accessible knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations. Pentesters use it to emulate realistic threat actors and map test findings to known adversarial behaviors.                                                                      |
+| **PTES**            | The Penetration Testing Execution Standard is a comprehensive methodology covering all phases of a penetration test, from pre-engagement interactions to reporting.                                                                                                                                            |
+| **NIST SP 800-115** | A technical guide to information security testing and assessment published by NIST, providing a standardized approach for planning and conducting security assessments.                                                                                                                                        |
