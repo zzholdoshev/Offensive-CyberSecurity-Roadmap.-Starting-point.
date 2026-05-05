@@ -5,20 +5,24 @@
 # Suggested Order ([[CbS Roadmap Visualization.canvas|visualization]]): 
 
 1.  Starting point. Go through this roadmap from top to bottom, starting from [[🧭 CyberSecurity roadmap. Starting point#^06e269|Intro]] #basic_cbs #web_I #linux_I #networks_I #CTF #forensics #C #SQL #python #git #gdb 
+	 > Start participating in CTFs as early as possible). Find you local [CTF](https://ctftime.org), or/and join HTB CTF [events](https://ctf.hackthebox.com/events/live) ^fb96d5
 2. [[🏴Cbs intermediate roadmap|intermediate roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_I #networks_II
 	> In order to better understand web apps - try building something. In terms of languages I suggest Go[^1](could be Java or any other language used for backend):
 	* [ ] backend bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
 	- [ ] Go bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
    
-   >An alternative for non-students:
+   >OR an alternative for non-students:
 	* [ ] learn Go syntax - it is best to use official [docs](https://go.dev/doc/) and [interactive course](https://go.dev/tour/welcome/1). [Go by example](https://gobyexample.com). Also review this [course](https://www.w3schools.com/go/index.php)
 	- [ ] build backend as [pet-project](https://roadmap.sh/golang/projects?difficulty=advanced), or search project ideas in any other language
 	
 	> optional:
-	* [ ] [[☁️cloud CbS roadmap|cloud CbS roadmap]] - a cloud-oriented roadmap for junior/intern appsec position in cloud. Otherwise skip this step. #cloud #kubernetes
+	* [ ] [[☁️cloud CbS roadmap|cloud CbS roadmap]] - a cloud-oriented roadmap for junior/intern appsec position in cloud. Otherwise skip this step. #cloud #kubernetes 
+	
+	> recommended: 
+	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course]]
 	
 3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #privesc_II #programming #code_security #malware^114cf4
-	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module. Linux Luminarium, access control, privEsc, data encoding and crypto are included in the first 2 roadmaps.
+	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module in getting started and core material. Linux Luminarium, access control, privEsc, data encoding, crypto amd program misuse are included in the first 2 roadmaps.
 	* Review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
 	 - [ ] Reverse engineering, binary exploitation and malware
 		 * [ ] [Nigthmare](https://guyinatuxedo.github.io/) - solid foundation for reverse / binary exploitation, theory + CTF challenges
@@ -30,14 +34,14 @@
 		 * roadmaps:
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
-	 - [ ] Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. Learning C/C++ is mandatory. 
-		  `I could not find comprehensive coursera alternatives for russian C++ courses on stepik/yandex, so for english speakers I suggest using AI for translation or drop them and just use AI for creating you own practical roadmap for learning C++.`
+	 - [ ] Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. Learning C/C++ is mandatory. There are some courses in russian. If you don't know russian, use AI for translation or search 
 		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
 		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
 		 * [ ] implement some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
-		 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex
-		 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best russian-language course on OOP.
-		* C++: [roadmap and general pointers](https://github.com/salmer/CppDeveloperRoadmap)
+		 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex(RU)
+		 * [ ] C++: https://www.learncpp.com 
+		 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best course on OOP(RU)
+		* C++: check this [roadmap.sh](https://roadmap.sh/cpp). Also you can develop your own roadmap on learning C++ by asking AI, include coding tasks at the end of every topic.
 		* rust is optional but recommended:
 			 * [ ] Rust: official "[rust book](https://rust-book.cs.brown.edu/title-page.html)", quizes included
 			 * [ ] Rust: 30 days of Rust [roadmap](https://github.com/Hunterdii/30-Days-Of-Rust/blob/main/README.md#-30-days-of-rust) - great roadmap
@@ -47,15 +51,14 @@
 	 * [ ] [Core security from OSSU (OpenSource Society University)](https://github.com/ossu/computer-science?tab=readme-ov-file#core-security) - identifying security vulnerabilities(C++/Java), principles of secure coding #appsec
 	* For additional specialization and pivoting look up different CbS specialization roadmaps on github
 * Do when you are ready:
-	* CTF (start participating in CTFs as early as possible). Find you local [CTF](https://ctftime.org), or/and join HTB CTF [events](https://ctf.hackthebox.com/events/live) ^fb96d5
-	* CbS games & BugBounty (recommended upon completion of [[🏴Cbs intermediate roadmap]]): ^718bdd
-		* BugBounty: https://bugbounty.standoff365.com/programs/standoff-365?tab=1
-		* https://www.hackerone.com/bug-bounty-programs
-		* https://bugbounty.ru/
-		* Bootcamp: https://hackbase.standoff365.com/battle/7/industry/27?tab=general
-			`A virtual infrastructure with realistic replicas of systems and software from different industries, in which cybersecurity specialists can train 24/7.` 
-		* Cyberbattle https://cyberbattle.standoff365.com attack-defense CbS game with cash prize
-		* [HacTheBox Fortresses - attack a copy of a real company infra](https://app.hackthebox.com/fortresses) 
+	> CbS games & BugBounty (recommended upon completion of [[🏴Cbs intermediate roadmap]]): ^718bdd
+	* BugBounty: https://bugbounty.standoff365.com/programs/standoff-365?tab=1
+	* https://www.hackerone.com/bug-bounty-programs
+	* https://bugbounty.ru/
+	* Bootcamp: https://hackbase.standoff365.com/battle/7/industry/27?tab=general
+		`A virtual infrastructure with realistic replicas of systems and software from different industries, in which cybersecurity specialists can train 24/7.` 
+	* Cyberbattle https://cyberbattle.standoff365.com attack-defense CbS game with cash prize
+	* [HacTheBox Fortresses - attack a copy of a real company infra](https://app.hackthebox.com/fortresses) 
 
 # Intro - overview of cybersecurity
 
@@ -63,39 +66,39 @@
 
 - [ ] CS50 [CyberSecurity](https://youtube.com/playlist?list=PLhQjrBD2T383Cqo5I1oRrbC1EKRAKGKUE&si=03-zJ1H9ROsNyFsC). An introduction to cybersecurity for technical and non-technical audiences alike
 # Intro - linux and data encoding
-
+- [x] install linux as primary desktop OS, use it daily
 * [ ] [pwn.college](https://pwn.college/linux-luminarium/) - #linux luminarium. basic linux & bash course
 * [ ] [overthewire bandit](https://overthewire.org/wargames/bandit/) #linux intro. classic wargame on linux, cbs, basic utilities. read writeups when stuck, but try to do everything on your own ^0accf7
 * [ ] [pwn.college](https://pwn.college/fundamentals/data-dealings/) - data & encoding (prerequisite for WEB)
 
-# Core - C, SQL, computer networks and crypto
+# Core - C, coding, SQL, computer networks, crypto and tools
 
 > [!about Ecole42 / school21]
-> In this module School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can drop this part if you are not a school 21 / Ecole42 and use alternative path. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
+> In this module School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can use alternative path if you are not a school 21 / Ecole42. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
 > Starting from 10th project in School 21, the most fundamental topics are completed and specialization is started. This projects are focused on CbS engineering rather than offensive security so I decided to make them optional though some of the concepts are relevant and helpful (especially 12th and 13 projects)
 
 ## Core CbS Ecole42 / School 21 projects:
 ### School 21 / Ecole42 C bootcamp #C #coding #memory_management #git #gdb
 >Learn coding, memory and low-level concepts. Very good foundation for CbS specialist and preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] in the future
-- [ ] C bootcamp 
+- [x] C bootcamp 
 ### School 21 / Ecole42 sql bootcamp #SQL
-- [ ] SQL bootcamp 
+- [x] SQL bootcamp 
 ### School 21 / Ecole42 devops projects
-- [ ] the first basic devops projects 
+- [x] the first basic devops projects 
 
 >  On topics like linux, network and docker. Don't go too deep into pure devops projects
 ### School 21 CbS projects
 #### School 21 CbS 1-4 projects #networks_I #gns3 #wireshark
-* [ ] s21_1 ✅ 
-* [ ] s21_2 ✅
-* [ ] s21_3 ✅ 
-* [ ] s21_4 ✅ 
+* [x] s21_1 ✅ 
+* [x] s21_2 ✅
+* [x] s21_3 ✅ 
+* [x] s21_4 ✅ 
 #### School 21 CbS 5-9 projects #linux #windows #crypto
-* [ ] s21_5 ✅  linux basics
-* [ ] s21_6 ✅  windows basics
-* [ ] s21_7 ✅  crypto_intro
-* [ ] s21_8 ✅  crypto_symetric
-* [ ] s21_9 ✅  crypto_asymetric
+* [x] s21_5 ✅  linux basics
+* [x] s21_6 ✅  windows basics
+* [x] s21_7 ✅  crypto_intro
+* [x] s21_8 ✅  crypto_symetric
+* [x] s21_9 ✅  crypto_asymetric
 ### optional School 21 CbS projects:
 * [ ] s21_10 - data channel protection #openVPN #NGate #TLS #pki
 * [ ] s21_11 - Enterprise_IT_landscape
@@ -128,9 +131,9 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
  > just read articles, watch youtube lectures, then deploy VMs in KVM/Virtualbox. Run some docker containers - learn about isolation, basic docker networking
 ### #C :
 - [ ] Learn [basic Syntax](https://www.learn-c.org)
-- [ ] C/C++: great russian-language [course](https://stepik.org/course/193691/syllabus)
+- [ ] C/C++: great russian-language [course](https://stepik.org/course/193691/syllabus). The most comprehensive online course on C/C++ i have ever seen, you can use AI for translation if don't know russian.
 - [ ] github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) ^a97ce8
-> OR find, review and complete other courses that cover basic C programming.
+> OR find, review and complete other courses that cover C programming.
 - [ ] learn how to use valgrind and gdb
 > After that just work on a couple of pet projects. Recommendation: write a shell/malloc/something else from this [repo](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md) or/and some C game from this [repo](https://github.com/Xtremilicious/projectlearn-project-based-learning). **Use Valgrind to check for memory leaks**, push code to github/gitlab and use clang-format. This will teach you how to think like a programmer as well as some low-level concepts. This is also a preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] 
 
@@ -193,7 +196,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | NoSQL Injection](https://tryhackme.com/room/nosqlinjectiontutorial)
 
 #### ⚙️ 4. Input validation and crawls
-* [ ] [TryHackMe | XSS](https://tryhackme.com/room/axss)
+* [x] [TryHackMe | XSS](https://tryhackme.com/room/axss)
 * [ ] [TryHackMe | SSTI](https://tryhackme.com/room/ssti)
 * [ ] [TryHackMe | File Inclusion, Path Traversal](https://tryhackme.com/room/filepathtraversal)
 * [ ] [TryHackMe | SSRF](https://tryhackme.com/room/ssrf)
@@ -232,7 +235,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | TakeOver](https://tryhackme.com/room/takeover )
 * [ ] [TryHackMe | Corridor](https://tryhackme.com/room/corridor )
 * [ ] [RootMe](https://tryhackme.com/room/rrootme ) — *Classic for beginners.*
-* [ ] [Pickle Rick](https://tryhackme.com/room/picklerick )
+* [x] [Pickle Rick](https://tryhackme.com/room/picklerick )
 * [ ] [Simple CTF](https://tryhackme.com/room/easyctf)
 * [ ] [Merry XSS-Mas](https://tryhackme.com/room/xss-aoc2025-c5j8b1m4t6) - CTF-style XSS room
 
@@ -255,21 +258,21 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 
 ^8af021
 
-| Category                         | Resources                                                                                                                                                                                                                                           |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🌐 **Web**                       | 🟣 **[PortSwigger]()**  **[[🏴Cbs intermediate roadmap#^cf620a\|local web apps]]**                                                                                                                                                                  |
-| 💣 **Binary** / 🧠 **Reverse**   | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Nightmare](https://guyinatuxedo.github.io/) / [picoCTF](https://picoctf.org/get_started.html) [ROP challenges](https://ropemporium.com/)                                                         |
-| 🔍 **Forensics**                 | 🟢 **[HTB sherlocks](https://app.hackthebox.com/sherlocks)** => [letsDefend DFIR path](https://app.letsdefend.io/path/dfir-learning-path) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                          |
-| 🔍 **OSINT / Stegano**           | 🟢 [HTB challenges](https://app.hackthebox.com/challenges) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                                                                                                         |
-| 🐧 **Linux / privesc**           | **[overthewire](https://overthewire.org/wargames/bandit)** => 🟡 **[pwn.college](https://pwn.college/dojos)** => **[VulnHub](https://vulnhub.com)** / **[THM](https://tryhackme.com)** / **[HTB](https://app.hackthebox.com/starting-point?tab=1)** |
-| 🏢 **AD**                        | 🟢 [[🏴Cbs intermediate roadmap#^f30dd9\|GOAD Game of Active Directory]]                                                                                                                                                                            |
-| ☁️ **Cloud**                     | ☁️ [[☁️cloud CbS roadmap#^a0b546\|yandex cloud courses]] / [[☁️cloud CbS roadmap#^885d58\|CloudGOAT (AWS)]]                                                                                                                                         |
-| 🧱 **Sandbox escape**            | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Vulnhub](https:\/\/vulnhub.com)                                                                                                                                                                  |
-| 🔒 **Crypto**                    | [cryptohack](https://cryptohack.org/challenges/) / [pwn.college - crypto](https://pwn.college/intro-to-cybersecurity/cryptography/)                                                                                                                 |
-| 🏴 **CTF / universal platforms** | [picoCTF](https://picoctf.org/get_started.html) / [Hacker101 CTF] https://ctf.hacker101.com/) / [THM](https://tryhackme.com) / [HTB](https://app.hackthebox.com/starting-point?tab=1)                                                               |
+| Category                         | Resources                                                                                                                                                                                                                                                                            |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 🌐 **Web**                       | 🟣 **[PortSwigger]()**  **[[🏴Cbs intermediate roadmap#^cf620a\|local web apps]]**                                                                                                                                                                                                   |
+| 💣 **Binary** / 🧠 **Reverse**   | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Nightmare](https://guyinatuxedo.github.io/) / [picoCTF](https://picoctf.org/get_started.html) [ROP challenges](https://ropemporium.com/)                                                                                          |
+| 🔍 **Forensics**                 | 🟢 **[HTB sherlocks](https://app.hackthebox.com/sherlocks)** => [letsDefend DFIR path](https://app.letsdefend.io/path/dfir-learning-path) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                                                           |
+| 🔍 **OSINT / Stegano**           | 🟢 [HTB challenges](https://app.hackthebox.com/challenges) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                                                                                                                                          |
+| 🐧 **Linux / privesc**           | **[overthewire](https://overthewire.org/wargames/bandit)** =>**[THM](https://tryhackme.com)** => 🟡 **[pwn.college privesc](https://pwn.college/privilege-escalation~6d04fe7a/)** => **[VulnHub](https://vulnhub.com)** / **[HTB](https://app.hackthebox.com/starting-point?tab=1)** |
+| 🏢 **AD**                        | 🟢 [[🏴Cbs intermediate roadmap#^f30dd9\|GOAD Game of Active Directory]]                                                                                                                                                                                                             |
+| ☁️ **Cloud**                     | ☁️ [[☁️cloud CbS roadmap#^a0b546\|yandex cloud courses]] / [[☁️cloud CbS roadmap#^885d58\|CloudGOAT (AWS)]]                                                                                                                                                                          |
+| 🧱 **Sandbox escape**            | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Vulnhub](https:\/\/vulnhub.com)                                                                                                                                                                                                   |
+| 🔒 **Crypto**                    | [cryptohack](https://cryptohack.org/challenges/) / [pwn.college - crypto](https://pwn.college/intro-to-cybersecurity/cryptography/)                                                                                                                                                  |
+| 🏴 **CTF / universal platforms** | [picoCTF](https://picoctf.org/get_started.html) / [Hacker101 CTF](https://ctf.hacker101.com/) / [THM](https://tryhackme.com) / [HTB](https://app.hackthebox.com/starting-point?tab=1)                                                                                                |
  ^d87ae9
 
-## 📚 Books & lectures
+## 📚 Books, lectures, courses
 
 * Computer Networks
 	- CCNA FULL COURSE with labs (very big) - [jeremy's IT lab](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
@@ -277,7 +280,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 	- Computer Networks, A. Tanenbaum
 - Pentest:
 	- **[Stanford web security course](https://www.youtube.com/playlist?list=PL1y1iaEtjSYiiSGVlL1cHsXN_kvJOOhu-)**, [text version](https://web.stanford.edu/class/cs253/) ^5162dc
-	- Yandex security [course](https://youtube.com/playlist?list=PLQC2_0cDcSKD_JHWtEJGIFQUVh7Z5JM8E&si=L_K0djnH6f5jEeD_) (RU)
+	- Yandex security [course](https://youtube.com/playlist?list=PLQC2_0cDcSKD_JHWtEJGIFQUVh7Z5JM8E&si=L_K0djnH6f5jEeD_) (RU) ^45da8d
 	* [**Practical Ethical Hacking (Free 12h Course)**](https://www.youtube.com/watch?v=3Kq1MIfTWCE) - TCM Security's high-quality introductory course on YouTube.
 	- "The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws" by D. Stuttard and M. Pinto is an indispensable book from the creators of Burp Suite.
 	- "Web penetration Testing with Kali Linux" by G. Najera-Gutierrez and J. A. Ansari is worth reading, memorizing and using as a reference.
