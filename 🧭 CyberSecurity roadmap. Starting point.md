@@ -5,7 +5,7 @@
 # Suggested Order ([[CbS Roadmap Visualization.canvas|visualization]]): 
 
 1.  Starting point. Go through this roadmap from top to bottom, starting from [[🧭 CyberSecurity roadmap. Starting point#^06e269|Intro]] #basic_cbs #web_I #linux_I #networks_I #CTF #forensics #C #SQL #python #git #gdb 
-	 > Start participating in CTFs as early as possible). Find you local [CTF](https://ctftime.org), or/and join HTB CTF [events](https://ctf.hackthebox.com/events/live) ^fb96d5
+	 > Start participating in CTFs as early as possible. Find you local [CTF](https://ctftime.org), or/and join HTB CTF [events](https://ctf.hackthebox.com/events/live) ^fb96d5
 2. [[🏴Cbs intermediate roadmap|intermediate roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_I #networks_II
 	> In order to better understand web apps - try building something. In terms of languages I suggest Go[^1](could be Java or any other language used for backend):
 	* [ ] backend bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
@@ -296,4 +296,4 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 	* WannaCry malware [analysis](https://www.youtube.com/playlist?list=PLniOzp3l9V83Yf52IXJTvW9rjstdqkduP) 
 
 
-[^1]: this languages were chosen because: C/C++ are very fundamental in terms of CS in general, knowing C helps in reverse engineering and binary exploitation, C++ is used for creating malware and most desktop apps, as well as apps for critical infrastructure and embedded. Rust is memory-safe and will replace C/C++ in most critical infrastructure, Go is efficient for backend and has some interesting concepts. You can choose other languages, for example if you are interested in mobile - java/kotlin/swift. Python is not included because it is a default scripting language for pentest, you should know it at this point. JS is not included because you should learn it by doing WEB pentesting at basic level - going too deep in frontend is pointless. PHP is not included because it is becoming legacy, just learn php vulnerabilities. 
+[^1]: these languages were chosen because: C/C++ are very fundamental in terms of CS in general, knowing C helps in reverse engineering and binary exploitation, C++ is used for creating malware and most desktop apps, as well as apps for critical infrastructure and embedded. Rust is memory-safe and will replace C/C++ in most critical infrastructure, Go is efficient for backend and has some interesting concepts. You can choose other languages, for example if you are interested in mobile - java/kotlin/swift. Python is not included because it is a default scripting language for pentest, you should know it at this point. JS is not included because you should learn it by doing WEB pentesting at basic level - going too deep in frontend is pointless. PHP is not included because it is becoming legacy, just learn php vulnerabilities. 
