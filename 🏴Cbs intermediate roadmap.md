@@ -184,6 +184,9 @@
  ^1bddeb
 
 ## 🔐 2. Linux Privilege Escalation (SUID, sudo, PATH, /etc/passwd, /proc)
+### Pwn.College
+* [ ] pwn.college (SUID/SUDO/CVEs) https://pwn.college/privilege-escalation~6d04fe7a/
+* [ ] pwn.college program misuse / SUID https://pwn.college/fundamentals/program-misuse/
 
 ### 🟢 TryHackMe
 
@@ -197,10 +200,6 @@
 - [ ] TryHackMe Sudo BuffOverlow https://tryhackme.com/room/sudovulnsbof
 - [ ] https://tryhackme.com/room/linuxagency
 * [ ] more TryHackMe rooms  https://github.com/Hunterdii/TryHackMe-Roadmap?tab=readme-ov-file#privesc
-
-### Pwn.College
-* [ ] pwn.college (SUID/SUDO/CVEs) https://pwn.college/privilege-escalation~6d04fe7a/
-* [ ] pwn.college program misuse / SUID https://pwn.college/fundamentals/program-misuse/
 
 ### Vulnhub
 * [ ] Vulnhub  basic pentesting [linux] https://www.vulnhub.com/entry/basic-pentesting-1,216/
@@ -216,7 +215,7 @@
 
 
 ## ⚙️ 3. Kernel, /proc, low-level Linux 
-some pwn.college modules are optional because they require low-level understanding of systems. 
+> some pwn.college modules are optional because they require low-level understanding of systems. 
 - [ ] TryHackMe — Dirty Pipe (kernel exploit)  
   https://tryhackme.com/room/dirtypipe
 - [ ] pwn.college — Kernel Security  
