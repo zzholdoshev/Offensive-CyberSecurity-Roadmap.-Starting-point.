@@ -169,10 +169,10 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 ## WEB pentest I:
 ### overthewire web wargame:
 * [ ] [overthewire natas](https://overthewire.org/wargames/natas/)  - legendary wargame for getting into web pentest #web 
-### [THM](https://tryhackme.com) #web rooms:
+### [THM](https://tryhackme.com) #web_I rooms:
 
 * [ ] install and learn burp [suite](https://tryhackme.com/room/burpsuiterepeater) 
-> OR / AND
+> OR / AND:
 * [ ] install and learn [OWASP ZAP](https://tryhackme.com/room/learnowaspzap) ^a0641b
 
 >some links might be broken, search alternatives on [THM](https://tryhackme.com) and [here](https://github.com/Hunterdii/TryHackMe-Roadmap#web)

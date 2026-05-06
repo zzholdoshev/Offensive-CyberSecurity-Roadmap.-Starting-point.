@@ -10,14 +10,13 @@
 
 * [ ] [[🧭 CyberSecurity roadmap. Starting point#^5162dc|Stanford WEB security course(YT)]] - solidify you web knowledge
 
-## 🟢 PortSwigger Server side vulnerabilities
-
-* [ ] https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice
-
-
 # 💉 2. CLASSIC WEB VULNS (XSS, SQLi, CSRF)
 
 >At this point you can just complete all learning paths on [portswigger academy](https://portswigger.net/web-security/learning-paths/).
+
+## 🟢 PortSwigger Server side vulnerabilities
+
+* [ ] https://portswigger.net/web-security/learning-paths/server-side-vulnerabilities-apprentice
 ## 🟢 Most popular portswigger modules from easy to hard:
 
 ### ⚪ TIER 0 — FOUNDATION (Before anything else)
@@ -427,14 +426,14 @@ Specialized tools for identifying and exploiting vulnerabilities in running webs
 ## 🔬 Static Application Security Testing (SAST)
 Tools that analyze source code, bytecode, or binary code to identify security vulnerabilities without executing the application.
 
-| Tool | Description |
-|:-----|:------------|
-| **Semgrep** | A fast, open-source static analysis tool that enforces code standards and finds bugs and security vulnerabilities. It supports 30+ languages and uses intuitive, customizable rules, making it ideal for developer-first security programs . |
-| **SonarQube** | An industry-standard platform for continuous code quality and security inspection. It combines SAST with code quality metrics across 40+ languages, featuring a low false-positive rate (under 3%) and deep IDE/CI/CD integration . |
-| **Checkmarx (CxSAST)** | An enterprise-grade SAST solution that provides broad language coverage and a hybrid query/AI-based engine. It is designed for modern development pipelines and includes features like AI-powered remediation and scanning of uncompiled code . |
-| **PT Application Inspector** | A SAST tool by Positive Technologies featuring advanced AI-powered analysis that reportedly reduces false positives by up to 60%. It supports over 30 programming languages and integrates seamlessly into CI/CD pipelines . |
-| **Svace** | A static analyzer developed by the Russian Academy of Sciences (ISP RAS) for detecting bugs and security vulnerabilities in C/C++, Java, and C# code. It identifies memory errors, concurrency issues, and security flaws like buffer overflows . |
-| **Solar AppScreener** | A Russian-developed application security testing solution that combines SAST, DAST, and SCA capabilities. It is certified by the FSTEC of Russia for use in government and critical infrastructure applications . |
+| Tool                         | Description                                                                                                                                                                                                                                       |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Semgrep**                  | A fast, open-source static analysis tool that enforces code standards and finds bugs and security vulnerabilities. It supports 30+ languages and uses intuitive, customizable rules, making it ideal for developer-first security programs .      |
+| **SonarQube**                | An industry-standard platform for continuous code quality and security inspection. It combines SAST with code quality metrics across 40+ languages, featuring a low false-positive rate (under 3%) and deep IDE/CI/CD integration .               |
+| **Checkmarx (CxSAST)**       | An enterprise-grade SAST solution that provides broad language coverage and a hybrid query/AI-based engine. It is designed for modern development pipelines and includes features like AI-powered remediation and scanning of uncompiled code .   |
+| **PT Application Inspector** | A SAST tool by Positive Technologies featuring advanced AI-powered analysis that reportedly reduces false positives by up to 60%. It supports over 30 programming languages and integrates seamlessly into CI/CD pipelines .                      |
+| **Svace**                    | A static analyzer developed by the Russian Academy of Sciences (ISP RAS) for detecting bugs and security vulnerabilities in C/C++, Java, and C# code. It identifies memory errors, concurrency issues, and security flaws like buffer overflows . |
+| **Solar AppScreener**        | A Russian-developed application security testing solution that combines SAST, DAST, and SCA capabilities. It is certified by the FSTEC of Russia for use in government and critical infrastructure applications .                                 |
 
 ## 🔓 Secrets & Dependency Scanning
 Tools used to detect hardcoded secrets, credentials, and vulnerable open-source dependencies in code and containers.
