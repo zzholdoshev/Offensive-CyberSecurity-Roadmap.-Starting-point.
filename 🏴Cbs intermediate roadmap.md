@@ -215,16 +215,15 @@
 
 
 
-## ⚙️ 3. Kernel, /proc, low-level Linux (optional)
-
+## ⚙️ 3. Kernel, /proc, low-level Linux 
+some pwn.college modules are optional because they require low-level understanding of systems. 
 - [ ] TryHackMe — Dirty Pipe (kernel exploit)  
   https://tryhackme.com/room/dirtypipe
 - [ ] pwn.college — Kernel Security  
   https://pwn.college/system-security/kernel-security/
-- [ ] pwn.college — Kernel Exploitation  
+- [ ] pwn.college — Kernel Exploitation (**optional**)
   https://pwn.college/software-exploitation/kernel-exploitation
-
-* [ ] pwn.college system exploitation https://pwn.college/system-security/system-exploitation/
+* [ ] pwn.college system exploitation https://pwn.college/system-security/system-exploitation/ (**optional**)
 
 
 ## 🐳 4. Docker Fundamentals
@@ -252,7 +251,7 @@
 
 ## 🔬 5. Docker Internals (namespaces, cgroups, union FS)
 
-- [ ] pwn.college sandboxing https://pwn.college/system-security/sandboxing/
+- [ ] pwn.college sandboxing https://pwn.college/system-security/sandboxing/ - quite fundamental course on sandboxing technology behind docker. Prerequisite: C and Linux
 
 - [ ] Dockerlabs — cgroups  
   https://dockerlabs.collabnix.com/advanced/security/cgroups/https://pwn.college/system-security/sandboxing/

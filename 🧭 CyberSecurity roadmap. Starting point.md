@@ -22,18 +22,21 @@
 	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course]]
 	
 3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #privesc_II #programming #code_security #malware^114cf4
-	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module in getting started and core material. Linux Luminarium, access control, privEsc, data encoding, crypto amd program misuse are included in the first 2 roadmaps.
-	* Review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
+	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module in getting started and core material. Linux Luminarium, access control, privEsc, data encoding, crypto and program misuse are included in the first 2 roadmaps.
+	* You can also review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
 	 - [ ] Reverse engineering, binary exploitation and malware
 		 * [ ] [Nigthmare](https://guyinatuxedo.github.io/) - solid foundation for reverse / binary exploitation, theory + CTF challenges
 		 * [ ] [OverTheWire](https://overthewire.org/wargames/) - leviathan, narnia, behemoth - classic reverse / binary exploitation wargames
+		 * [ ] Modern Binary Exploitation [course](https://github.com/RPISEC/MBE) from RPISEC
 		 * [ ] ROP [challenges](https://ropemporium.com/) - binary exploitation challenges
+		 * [Crackmes](https://crackmes.one) and other [[🧭 CyberSecurity roadmap. Starting point#^8af021|links]]
 		 * [ ] malware courses
 			 * [ ] https://malwareunicorn.org/workshops/re101.html#0
 			 * [ ] https://malwareunicorn.org/workshops/re102.html#0
 		 * roadmaps:
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
 			 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
+			 * comprehensive [roadmap](https://github.com/x86byte/RE-MA-Roadmap) for reverse engineering and malware analysis
 	 - [ ] Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. Learning C/C++ is mandatory. There are some courses in russian. If you don't know russian, use AI for translation or search 
 		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
 		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
@@ -77,7 +80,7 @@
 > In this module School 21 / Ecole42 projects (School 21 is a Russian version of Ecole42) are suggested. You can use alternative path if you are not a school 21 / Ecole42. The most important thing about School 21 /  Ecole 42 is that it is a programming school, learning how to code is extremely helpful for CbS.
 > Starting from 10th project in School 21, the most fundamental topics are completed and specialization is started. This projects are focused on CbS engineering rather than offensive security so I decided to make them optional though some of the concepts are relevant and helpful (especially 12th and 13 projects)
 
-## Core CbS Ecole42 / School 21 projects:
+## Core CbS Ecole42 / School 21 projects ([[🧭 CyberSecurity roadmap. Starting point#^29096b|Alternative]]):
 ### School 21 / Ecole42 C bootcamp #C #coding #memory_management #git #gdb
 >Learn coding, memory and low-level concepts. Very good foundation for CbS specialist and preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] in the future
 - [ ] C bootcamp 
@@ -112,6 +115,8 @@
 ### Ecole42 CbS projects
 * [ ] Review and complete the most important CbS projects in Ecole42, especially on topics like networks, crypto, linux. Don't go too deep - start doing CTFs and other parts of this roadmap ASAP
 ## Alternative for core CbS Ecole42 / School 21:
+
+^29096b
 ### Intro to computer science
 * [ ] [CS50](https://youtube.com/playlist?list=PLhQjrBD2T380hlTqAU8HfvVepCcjCqTg6&si=6fRP30JMlcproLeo) (optional) - legendary Stanford introduction to computer science. Gives you basic understanding of C and coding, memory, algorithms, data structures and how computer works. You can drop AI part. This course includes not only lectures abut also [problem set](https://cs50.harvard.edu/x/) Updated every year. If pacing seems a bit slow - skip this part.
 * [ ] Great fundamental [course](https://www.roppers.org/courses/technical-security-fundamentals) about technical security 
@@ -142,7 +147,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 - [ ]  [pwn.college](https://pwn.college/fundamentals/sql-playground/) + this [course](https://sqlbolt.com) + and [this](https://www.w3schools.com/sql/)(for reference) **OR / AND:** RU free sql [course](https://sql-academy.org/ru)
 
 ### #crypto:
-- [ ] [pwn.college](https://pwn.college/intro-to-cybersecurity/cryptography/) -crypto module on pwn.college
+- [ ] [pwn.college](https://pwn.college/intro-to-cybersecurity/cryptography/) - crypto module on pwn.college
 > OR / AND:
 - [ ] [cryptohack](https://cryptohack.org/challenges/) additional course on crypto
 - [ ] https://www.khanacademy.org/computing/computer-science/cryptography - additional course on crypto from khan academy, helpful and illustrative but not that deep (**optional**)
@@ -169,6 +174,9 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 ## WEB pentest I:
 ### overthewire web wargame:
 * [ ] [overthewire natas](https://overthewire.org/wargames/natas/)  - legendary wargame for getting into web pentest #web 
+
+### pwn.college
+ - [ ] pwn.college [talking web](https://pwn.college/fundamentals/talking-web/) - foundational knowledge about web, HTTP, cookies, json etc
 ### [THM](https://tryhackme.com) #web_I rooms:
 
 * [ ] install and learn burp [suite](https://tryhackme.com/room/burpsuiterepeater) 
@@ -261,7 +269,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 | Category                         | Resources                                                                                                                                                                                                                                                                            |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 🌐 **Web**                       | 🟣 **[PortSwigger]()**  **[[🏴Cbs intermediate roadmap#^cf620a\|local web apps]]**                                                                                                                                                                                                   |
-| 💣 **Binary** / 🧠 **Reverse**   | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Nightmare](https://guyinatuxedo.github.io/) / [picoCTF](https://picoctf.org/get_started.html) [ROP challenges](https://ropemporium.com/)                                                                                          |
+| 💣 **Binary** / 🧠 **Reverse**   | 🔵 **[pwn.college](https://pwn.college/dojos)** / [Nightmare](https://guyinatuxedo.github.io/) / [picoCTF](https://picoctf.org/get_started.html) [ROP challenges](https://ropemporium.com/) [crackmes](https://crackmes.one) [pwnable.kr](https://pwnable.kr)                        |
 | 🔍 **Forensics**                 | 🟢 **[HTB sherlocks](https://app.hackthebox.com/sherlocks)** => [letsDefend DFIR path](https://app.letsdefend.io/path/dfir-learning-path) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                                                           |
 | 🔍 **OSINT / Stegano**           | 🟢 [HTB challenges](https://app.hackthebox.com/challenges) / [THM](https://tryhackme.com) / [picoCTF](https://picoctf.org/get_started.html)                                                                                                                                          |
 | 🐧 **Linux / privesc**           | **[overthewire](https://overthewire.org/wargames/bandit)** =>**[THM](https://tryhackme.com)** => 🟡 **[pwn.college privesc](https://pwn.college/privilege-escalation~6d04fe7a/)** => **[VulnHub](https://vulnhub.com)** / **[HTB](https://app.hackthebox.com/starting-point?tab=1)** |
