@@ -19,28 +19,29 @@
 	* [ ] [[☁️cloud CbS roadmap|cloud CbS roadmap]] - a cloud-oriented roadmap for junior/intern appsec position in cloud. Otherwise skip this step. #cloud #kubernetes 
 	
 	> recommended: 
-	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course]]
+	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course(RU)]]
 	
 3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #privesc_II #programming #code_security #malware^114cf4
+   > C coding is mandatory if you go into low-level security:
+	- [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
+	- [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
+	* [ ] implement some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
+	> reverse engineering and binary exploitation
 	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module in getting started and core material. Linux Luminarium, access control, privEsc, data encoding, crypto and program misuse are included in the first 2 roadmaps.
-	* You can also review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
-	 - [ ] Reverse engineering, binary exploitation and malware
-		 * [ ] [Nigthmare](https://guyinatuxedo.github.io/) - solid foundation for reverse / binary exploitation, theory + CTF challenges
-		 * [ ] [OverTheWire](https://overthewire.org/wargames/) - leviathan, narnia, behemoth - classic reverse / binary exploitation wargames
-		 * [ ] Modern Binary Exploitation [course](https://github.com/RPISEC/MBE) from RPISEC
-		 * [ ] ROP [challenges](https://ropemporium.com/) - binary exploitation challenges
-		 * [Crackmes](https://crackmes.one) and other [[🧭 CyberSecurity roadmap. Starting point#^8af021|links]]
-		 * [ ] malware courses
-			 * [ ] https://malwareunicorn.org/workshops/re101.html#0
-			 * [ ] https://malwareunicorn.org/workshops/re102.html#0
-		 * roadmaps:
-			 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
-			 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
-			 * comprehensive [roadmap](https://github.com/x86byte/RE-MA-Roadmap) for reverse engineering and malware analysis
-	 - [ ] Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. Learning C/C++ is mandatory. There are some courses in russian. If you don't know russian, use AI for translation or search 
-		 - [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
-		 - [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
-		 * [ ] implement some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
+	 * [ ] [Nigthmare](https://guyinatuxedo.github.io/) - solid foundation for reverse / binary exploitation, theory + CTF challenges
+	 * [ ] [OverTheWire](https://overthewire.org/wargames/) - leviathan, narnia, behemoth - classic reverse / binary exploitation wargames
+	 * [ ] Modern Binary Exploitation [course](https://github.com/RPISEC/MBE) from RPISEC
+	 * [ ] ROP [challenges](https://ropemporium.com/) - binary exploitation challenges
+	 * [Crackmes](https://crackmes.one) and other [[🧭 CyberSecurity roadmap. Starting point#^8af021|links]]
+	 * [ ] malware courses
+		 * [ ] https://malwareunicorn.org/workshops/re101.html#0
+		 * [ ] https://malwareunicorn.org/workshops/re102.html#0
+	 * roadmaps:
+		 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
+		 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
+		 * comprehensive [roadmap](https://github.com/x86byte/RE-MA-Roadmap) for reverse engineering and malware analysis
+		* You can also review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
+	 - [ ] Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. There are some courses in russian. If you don't know russian, use AI for translation. 
 		 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex(RU)
 		 * [ ] C++: https://www.learncpp.com 
 		 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best course on OOP(RU)
@@ -139,8 +140,9 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 - [ ] C/C++: great russian-language [course](https://stepik.org/course/193691/syllabus). The most comprehensive online course on C/C++ i have ever seen, you can use AI for translation if don't know russian.
 - [ ] github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) ^a97ce8
 > OR find, review and complete other courses that cover C programming.
+- [ ] build a C/C++ pet project, you can review some C/C++ project ideas [here](https://github.com/Xtremilicious/projectlearn-project-based-learning)
 - [ ] learn how to use valgrind and gdb
-> After that just work on a couple of pet projects. Recommendation: write a shell/malloc/something else from this [repo](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md) or/and some C game from this [repo](https://github.com/Xtremilicious/projectlearn-project-based-learning). **Use Valgrind to check for memory leaks**, push code to github/gitlab and use clang-format. This will teach you how to think like a programmer as well as some low-level concepts. This is also a preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] 
+> **Use Valgrind to check for memory leaks**, push code to github/gitlab and use clang-format. This will teach you how to think like a programmer as well as some low-level concepts. This is also a preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] 
 
 
 ### #sql:
