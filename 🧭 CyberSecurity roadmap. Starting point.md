@@ -26,6 +26,7 @@
 	- [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
 	- [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
 	* [ ] implement some C project ideas in this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/training/c.md). Recommended the first 2-3 (shell, malloc etc)
+	
 	> reverse engineering and binary exploitation
 	 * [ ] [pwn.college](https://pwn.college/dojos) -  free comprehensive college-level courses from Arizona State University. Recommended to do every module in getting started and core material. Linux Luminarium, access control, privEsc, data encoding, crypto and program misuse are included in the first 2 roadmaps.
 	 * [ ] [Nigthmare](https://guyinatuxedo.github.io/) - solid foundation for reverse / binary exploitation, theory + CTF challenges
@@ -70,7 +71,7 @@
 
 - [ ] CS50 [CyberSecurity](https://youtube.com/playlist?list=PLhQjrBD2T383Cqo5I1oRrbC1EKRAKGKUE&si=03-zJ1H9ROsNyFsC). An introduction to cybersecurity for technical and non-technical audiences alike
 # Intro - linux and data encoding
-- [ ] install linux as primary desktop OS, use it daily
+- [x] install linux as primary desktop OS, use it daily
 * [ ] [pwn.college](https://pwn.college/linux-luminarium/) - #linux luminarium. basic linux & bash course
 * [ ] [overthewire bandit](https://overthewire.org/wargames/bandit/) #linux intro. classic wargame on linux, cbs, basic utilities. read writeups when stuck, but try to do everything on your own ^0accf7
 * [ ] [pwn.college](https://pwn.college/fundamentals/data-dealings/) - data & encoding (prerequisite for WEB)
@@ -84,25 +85,25 @@
 ## Core CbS Ecole42 / School 21 projects ([[🧭 CyberSecurity roadmap. Starting point#^29096b|Alternative]]):
 ### School 21 / Ecole42 C bootcamp #C #coding #memory_management #git #gdb
 >Learn coding, memory and low-level concepts. Very good foundation for CbS specialist and preparation for the third [[🧭 CyberSecurity roadmap. Starting point#^114cf4|roadmap]] in the future
-- [ ] C bootcamp 
+- [x] C bootcamp 
 ### School 21 / Ecole42 sql bootcamp #SQL
-- [ ] SQL bootcamp 
+- [x] SQL bootcamp 
 ### School 21 / Ecole42 devops projects
-- [ ] the first basic devops projects 
+- [x] the first basic devops projects 
 
 >  On topics like linux, network and docker. Don't go too deep into pure devops projects
 ### School 21 CbS projects
 #### School 21 CbS 1-4 projects #networks_I #gns3 #wireshark
-* [ ] s21_1 ✅ 
-* [ ] s21_2 ✅
-* [ ] s21_3 ✅ 
-* [ ] s21_4 ✅ 
+* [x] s21_1 ✅ 
+* [x] s21_2 ✅
+* [x] s21_3 ✅ 
+* [x] s21_4 ✅ 
 #### School 21 CbS 5-9 projects #linux #windows #crypto
-* [ ] s21_5 ✅  linux basics
-* [ ] s21_6 ✅  windows basics
-* [ ] s21_7 ✅  crypto_intro
-* [ ] s21_8 ✅  crypto_symetric
-* [ ] s21_9 ✅  crypto_asymetric
+* [x] s21_5 ✅  linux basics
+* [x] s21_6 ✅  windows basics
+* [x] s21_7 ✅  crypto_intro
+* [x] s21_8 ✅  crypto_symetric
+* [x] s21_9 ✅  crypto_asymetric
 ### optional School 21 CbS projects:
 * [ ] s21_10 - data channel protection #openVPN #NGate #TLS #pki
 * [ ] s21_11 - Enterprise_IT_landscape
@@ -206,7 +207,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | NoSQL Injection](https://tryhackme.com/room/nosqlinjectiontutorial)
 
 #### ⚙️ 4. Input validation and crawls
-* [ ] [TryHackMe | XSS](https://tryhackme.com/room/axss)
+* [x] [TryHackMe | XSS](https://tryhackme.com/room/axss)
 * [ ] [TryHackMe | SSTI](https://tryhackme.com/room/ssti)
 * [ ] [TryHackMe | File Inclusion, Path Traversal](https://tryhackme.com/room/filepathtraversal)
 * [ ] [TryHackMe | SSRF](https://tryhackme.com/room/ssrf)
@@ -245,7 +246,7 @@ fun git games for learning git. Try to learn git by doing, don't waste your time
 * [ ] [TryHackMe | TakeOver](https://tryhackme.com/room/takeover )
 * [ ] [TryHackMe | Corridor](https://tryhackme.com/room/corridor )
 * [ ] [RootMe](https://tryhackme.com/room/rrootme ) — *Classic for beginners.*
-* [ ] [Pickle Rick](https://tryhackme.com/room/picklerick )
+* [x] [Pickle Rick](https://tryhackme.com/room/picklerick )
 * [ ] [Simple CTF](https://tryhackme.com/room/easyctf)
 * [ ] [Merry XSS-Mas](https://tryhackme.com/room/xss-aoc2025-c5j8b1m4t6) - CTF-style XSS room
 

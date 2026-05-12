@@ -59,7 +59,7 @@ Working in the cloud shifts the focus to integrating K8s with the provider's inf
 
 ### Level 1: Linux Fundamentals and Access Rights. Covered in [[🏴Cbs intermediate roadmap#^5207fe|intermediate roadmap]]
 
-- [ ] **Linux Fundamentals (TryHackMe)**: Practicing `chmod`, `chown`, and system structure. [Lab](https://tryhackme.com/module/linux-fundamentals) ✅ 2026-04-03
+- [x] **Linux Fundamentals (TryHackMe)**: Practicing `chmod`, `chown`, and system structure. [Lab](https://tryhackme.com/module/linux-fundamentals) ✅ 2026-04-03
 
 - [ ] **Agent Sudo (TryHackMe)**: Hacking and securing sudo settings. [Lab](https://tryhackme.com/room/agentsudoctf)
 
