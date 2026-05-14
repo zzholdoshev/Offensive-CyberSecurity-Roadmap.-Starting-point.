@@ -4,9 +4,9 @@
 
 # Suggested Order ([[CbS Roadmap Visualization.canvas|visualization]]): 
 
-1.  Starting point. Go through this roadmap from top to bottom, starting from [[🧭 CyberSecurity roadmap. Starting point#^06e269|Intro]] #basic_cbs #web_I #linux_I #networks_I #CTF #forensics #C #SQL #python #git #gdb 
+1.  Starting point. Go through this roadmap from top to bottom, starting from [[🧭 CyberSecurity roadmap. Starting point#^06e269|Intro]] #basic_cbs #web_I #privesc_I #linux_I #networks_I #CTF #forensics #C #SQL #python #git #gdb 
 	 > Start participating in CTFs as early as possible. Find you local [CTF](https://ctftime.org), or/and join HTB CTF [events](https://ctf.hackthebox.com/events/live) ^fb96d5
-2. [[🏴Cbs intermediate roadmap|intermediate roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_I #networks_II
+2. [[🏴Cbs intermediate roadmap|intermediate roadmap]]  #web_II #infra #linux_II #docker #AD #windows #privesc_II #networks_II
 	> In order to better understand web apps - try building something. In terms of languages I suggest Go[^1](could be Java or any other language used for backend):
 	* [ ] backend bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
 	- [ ] Go bootcamp in Ecole 42 / School 21 (**for ecole42/school21 students**)
@@ -21,7 +21,7 @@
 	> recommended: 
 	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course(RU)]]
 	
-3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #privesc_II #programming #code_security #malware^114cf4
+1. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #programming #code_security #malware^114cf4
    > C coding is mandatory if you go into low-level security:
 	- [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
 	- [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
@@ -74,6 +74,7 @@
 - [ ] install linux as primary desktop OS, use it daily
 * [ ] [pwn.college](https://pwn.college/linux-luminarium/) - #linux luminarium. basic linux & bash course
 * [ ] [overthewire bandit](https://overthewire.org/wargames/bandit/) #linux intro. classic wargame on linux, cbs, basic utilities. read writeups when stuck, but try to do everything on your own ^0accf7
+* [ ] [pwn.college](https://pwn.college/fundamentals/program-misuse/) - program misuse - basic privilege escalation on linux using standard utilities #privesc_I
 * [ ] [pwn.college](https://pwn.college/fundamentals/data-dealings/) - data & encoding (prerequisite for WEB)
 
 # Core - C, coding, SQL, computer networks, crypto and tools

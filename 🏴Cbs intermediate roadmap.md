@@ -165,7 +165,7 @@
 ## 🟢 [[🧭 CyberSecurity roadmap. Starting point#^8af021|other links]]
 
 ---
-# #infra #privesc_I 
+# #infra #privesc_II
 # 🐧 3. Linux PrivEsc + 🐳 Docker Security Labs (FREE ONLY)
 ^5207fe
 
@@ -179,14 +179,15 @@
 ## 🧠 1. Linux Basics (files, users, permissions)
 
 - [ ] [OverTheWire](https://overthewire.org/wargames/bandit/) — Bandit. Old but gold classic. Also covered in [[🧭 CyberSecurity roadmap. Starting point#^0accf7]]
-- [ ] [pwn.college](https://pwn.college/linux-luminarium/) — Linux Luminarium (very basic). Do not waste too much time on it, you can complete some of the modules you dont know. Also covered in Starting point roadmap.
+- [ ] [pwn.college](https://pwn.college/linux-luminarium/) — Linux Luminarium. Also covered in Starting point roadmap.
 * [ ] pwn.college [access control](https://pwn.college/intro-to-cybersecurity/access-control/)
  ^1bddeb
-
+## 1.5 Linux enumeration and exploitation
+- [ ] https://tryhackme.com/room/thecodcaper
+- [ ] https://tryhackme.com/room/lazyadmin
 ## 🔐 2. Linux Privilege Escalation (SUID, sudo, PATH, /etc/passwd, /proc)
 ### Pwn.College
 * [ ] pwn.college (SUID/SUDO/CVEs) https://pwn.college/privilege-escalation~6d04fe7a/
-* [ ] pwn.college program misuse / SUID https://pwn.college/fundamentals/program-misuse/
 
 ### 🟢 TryHackMe
 
@@ -196,6 +197,7 @@
   https://tryhackme.com/room/linuxprivescarena
 - [ ] TryHackMe — Linux Privilege Escalation  
   https://tryhackme.com/room/linprivesc
+- [ ] https://tryhackme.com/room/agentsudoctf
 - [ ] TryHackMe   Sudo bypass https://tryhackme.com/room/sudovulnsbypass
 - [ ] TryHackMe Sudo BuffOverlow https://tryhackme.com/room/sudovulnsbof
 - [ ] https://tryhackme.com/room/linuxagency
@@ -321,6 +323,7 @@
 ## TryHackMe
 
 * [ ] https://tryhackme.com/room/windows10privesc
+* [ ] https://tryhackme.com/room/postexploit - windows postexploit cred #kerberos dumping with #mimikatz, enumeration with #bloodhound & #powerview
 * [ ] https://tryhackme.com/room/anthem
 * [ ] https://tryhackme.com/room/windowsprivescarena
 * [ ] windows privesc (Ctf-like) https://tryhackme.com/room/blueprint
@@ -339,6 +342,7 @@
 * [ ] https://tryhackme.com/r/room/redteamfundamentals  
 * [ ] https://tryhackme.com/r/room/postexploit
 * [ ] https://tryhackme.com/room/raz0rblack
+* [ ] https://tryhackme.com/room/localpotato?ref=blog.tryhackme.com
 * [ ] https://tryhackme.com/room/enterprise - hard CTF-like AD room
 *  https://github.com/Hunterdii/TryHackMe-Roadmap?tab=readme-ov-file#active%20directory
 
