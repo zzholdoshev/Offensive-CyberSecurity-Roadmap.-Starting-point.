@@ -21,7 +21,7 @@
 	> recommended: 
 	- [ ] [[🧭 CyberSecurity roadmap. Starting point#^45da8d|yandex CbS course(RU)]]
 	
-1. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #programming #code_security #malware^114cf4
+3. Advanced roadmap. Solid college-level foundation for CbS on topics like #reverse #binary #system_security #low_level #kernel #sandboxing #programming #code_security #malware^114cf4
    > C coding is mandatory if you go into low-level security:
 	- [ ] C: github roadmap [learn C in 60 days](https://github.com/Sckab/C-RoadMap/tree/master) (take this roadmap if you did school21/ecole42 C bootcamp instead of "alternative" path, covered in this [[🧭 CyberSecurity roadmap. Starting point#^a97ce8|roadmap]]). You can skip the first 3 weeks.
 	- [ ] C: security-oriented C [roadmap](https://github.com/h0mbre/Learning-C) 
