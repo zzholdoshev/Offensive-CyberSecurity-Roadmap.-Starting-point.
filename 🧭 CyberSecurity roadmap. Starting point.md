@@ -34,25 +34,28 @@
 	 * [ ] Modern Binary Exploitation [course](https://github.com/RPISEC/MBE) from RPISEC
 	 * [ ] ROP [challenges](https://ropemporium.com/) - binary exploitation challenges
 	 * [Crackmes](https://crackmes.one) and other [[🧭 CyberSecurity roadmap. Starting point#^8af021|links]]
-	 * [ ] malware courses
-		 * [ ] https://malwareunicorn.org/workshops/re101.html#0
-		 * [ ] https://malwareunicorn.org/workshops/re102.html#0
-	 * roadmaps:
-		 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
-		 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
-		 * comprehensive [roadmap](https://github.com/x86byte/RE-MA-Roadmap) for reverse engineering and malware analysis
-		* You can also review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
-	 - [ ] Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. There are some courses in russian. If you don't know russian, use AI for translation. 
-		 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex(RU)
-		 * [ ] C++: https://www.learncpp.com 
-		 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best course on OOP(RU)
-		* C++: check this [roadmap.sh](https://roadmap.sh/cpp). Also you can develop your own roadmap on learning C++ by asking AI, include coding tasks at the end of every topic.
-		* rust is optional but recommended:
-			 * [ ] Rust: official "[rust book](https://rust-book.cs.brown.edu/title-page.html)", quizes included
-			 * [ ] Rust: 30 days of Rust [roadmap](https://github.com/Hunterdii/30-Days-Of-Rust/blob/main/README.md#-30-days-of-rust) - great roadmap
-			 * [ ] Rust: russian-language [course](https://stepik.org/course/195449/syllabus)
-			 * [ ] Rust bootcamp at Ecole42 (**for ecole42 students**)
-		* [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and review these projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Recommended: for web/infra pentest - web server, browser, network stack, dns server, for low-level -  docker, shell, emulator
+	 
+	 > malware courses
+	* [ ] https://malwareunicorn.org/workshops/re101.html#0
+	* [ ] https://malwareunicorn.org/workshops/re102.html#0
+	 
+	 > roadmaps:
+	 * https://github.com/hoppersroppers/roadmap/blob/master/training/hardstuff.md - reverse
+	 * https://github.com/hoppersroppers/roadmap/blob/master/training/pwning.md - binary exploitation
+	 * comprehensive [roadmap](https://github.com/x86byte/RE-MA-Roadmap) for reverse engineering and malware analysis
+	 * You can also review this [roadmap](https://github.com/hoppersroppers/roadmap/blob/master/README.md). It is partly integrated in this roadmap.
+	 
+	 > Advanced coding. Learn programming languages like (`C++/rust`[^1]), OOP and solidify C knowledge. Try building pet projects. There are some courses in russian. If you don't know russian, use AI for translation. 
+	 * [ ] C++: great introductory russian-language [course](https://education.yandex.ru/handbook/cpp) from Yandex(RU)
+	 * [ ] C++: https://www.learncpp.com 
+	 * [ ] OOP C++: [course(OOP C++)](https://stepik.org/course/205781/info). Best course on OOP(RU)
+	* C++: check this [roadmap.sh](https://roadmap.sh/cpp). Also you can develop your own roadmap on learning C++ by asking AI, include coding tasks at the end of every topic.
+	* rust is optional but recommended:
+		 * [ ] Rust: official "[rust book](https://rust-book.cs.brown.edu/title-page.html)", quizes included
+		 * [ ] Rust: 30 days of Rust [roadmap](https://github.com/Hunterdii/30-Days-Of-Rust/blob/main/README.md#-30-days-of-rust) - great roadmap
+		 * [ ] Rust: russian-language [course](https://stepik.org/course/195449/syllabus)
+		 * [ ] Rust bootcamp at Ecole42 (**for ecole42 students**)
+	* [ ] implement at least 2-3 pet projects from this [repo](https://github.com/CarterPerez-dev/Cybersecurity-Projects) and review these projects [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x). Recommended: for web/infra pentest - web server, browser, network stack, dns server, for low-level -  docker, shell, emulator
 	 * [ ] [Core security from OSSU (OpenSource Society University)](https://github.com/ossu/computer-science?tab=readme-ov-file#core-security) - identifying security vulnerabilities(C++/Java), principles of secure coding #appsec
 	* For additional specialization and pivoting look up different CbS specialization roadmaps on github
 * Do when you are ready:
